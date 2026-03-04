@@ -269,7 +269,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - Build an offline-capable Hacker News client with Angular 2+
   - [Part 1](https://houssein.me/angular2-hacker-news)
   - [Part 2](https://houssein.me/progressive-angular-applications)
-- [Build a Google+ clone with Django and AngularJS (Angular 1.x)](https://thinkster.io/django-angularjs-tutorial)
+- [Build a Google+ clone with Django and AngularJS (Angular 1.x)](https://web.archive.org/web/20170706195121/https://thinkster.io/django-angularjs-tutorial)
 - Build A Beautiful Real World App with Angular 8 :
 
   - [Part I](https://medium.com/@hamedbaatour/build-a-real-world-beautiful-web-app-with-angular-6-a-to-z-ultimate-guide-2018-part-i-e121dd1d55e)
