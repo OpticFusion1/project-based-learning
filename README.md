@@ -30,6 +30,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Rust](#rust)
 - [Scala](#scala)
 - [Swift](#swift)
+- [Streamlit](#streamlit)
 - [Additional resources](#additional-resources)
 
 ## C/C++:
@@ -654,6 +655,12 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 - [Hacking with Swift - Learn Swift by doing 39 projects](https://www.hackingwithswift.com/read)
 - [Retro first-person shooter from scratch](https://github.com/nicklockwood/RetroRampage)
+
+## Streamlit:
+
+- [Master Streamlit in one course - 4 Real Projects Included](https://youtu.be/eAgONwZ_dKM?si=NhmhJqSMWw9NJo1C)
+- [Complete Streamlit Python Course](https://youtu.be/RjiqbTLW9_E?si=TDOQjfGhGHHc26Iu)
+
 
 ## Additional Resources
 
