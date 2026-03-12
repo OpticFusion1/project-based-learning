@@ -480,7 +480,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Safety Guardrails for LLMs: LLaMA Guard Tutorial](https://colab.research.google.com/drive/1CfF0Bzzkd5VETmhsniksSpekpS-LKYtX)
 
 ### Machine Learning:
-
+-[Build an ML Inference API with FastAPI and ONNX](https://www.youtube.com/watch?v=5PgqzVG9SCk)
 - [Write Linear Regression From Scratch in Python](https://www.youtube.com/watch?v=uwwWVAgJBcM) (video)
 - [Step-By-Step Machine Learning In Python](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
 - [Predict Quality Of Wine](https://medium.freecodecamp.org/using-machine-learning-to-predict-the-quality-of-wines-9e2e13d7480d)
