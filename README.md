@@ -472,6 +472,10 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 - [Safety Guardrails for LLMs: LLaMA Guard Tutorial](https://colab.research.google.com/drive/1CfF0Bzzkd5VETmhsniksSpekpS-LKYtX)
 
+### Generative AI:
+
+- [Safety Guardrails for LLMs: LLaMA Guard Tutorial](https://colab.research.google.com/drive/1CfF0Bzzkd5VETmhsniksSpekpS-LKYtX)
+
 ### Machine Learning:
 
 - [Write Linear Regression From Scratch in Python](https://www.youtube.com/watch?v=uwwWVAgJBcM) (video)
