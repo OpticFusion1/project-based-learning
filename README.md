@@ -607,6 +607,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Transfer Learning for Image Classification using Keras](https://towardsdatascience.com/transfer-learning-for-image-classification-using-keras-c47ccf09c8c8)
 - [Code a Smile Classifier using CNNS in Python](https://github.com/kylemcdonald/SmileCNN)
 - [Natural Language Processing using scikit-learn](https://web.archive.org/web/20200414132154/https://towardsdatascience.com/natural-language-processing-count-vectorization-with-scikit-learn-e7804269bb5e)
+- [Code a Taylor Swift Lyrics Generator](https://web.archive.org/web/20190706003619/https://towardsdatascience.com/ai-generates-taylor-swifts-song-lyrics-6fd92a03ef7e)
 - [Mask detection using PyTorch Lightning](https://web.archive.org/web/20241123225203/https://towardsdatascience.com/how-i-built-a-face-mask-detector-for-covid-19-using-pytorch-lightning-67eb3752fd61?gi=2cdae04f54a6)
 - [Create your first PPO (Proximal Policy Optimization) in Python: Deep Reinforcement Learning Course in Chinese](https://github.com/opendilab/PPOxFamily)
 
