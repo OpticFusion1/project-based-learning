@@ -466,8 +466,8 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Create A Django API in under 20 minutes](https://codeburst.io/create-a-django-api-in-under-20-minutes-2a082a60f6f3)
 - [Building an Interactive Question Answering App with Streamlit, Transformers, and Langchain WikipediaAPIWrapper](https://medium.com/@anoopjohny2000/building-an-interactive-question-answering-app-with-streamlit-transformers-and-langchain-13b338cfe534)
 - Build a Community-driven delivery application with Django, Postgres and JavaScript:
-  - [Part 1](https://www.ashwinhariharan.tech/blog/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead/)
-  - [Part 2](https://www.ashwinhariharan.tech/blog/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-part-2/)
+  - [Part 1](https://web.archive.org/web/20211025231809/https://www.ashwinhariharan.tech/blog/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead/)
+  - [Part 2](https://web.archive.org/web/20211025232722/https://www.ashwinhariharan.tech/blog/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-part-2/)
 - Realtime Chat application with Vue, django-notifs, RabbitMQ and uWSGI:
   - [Part 1](https://danidee10.github.io/2018/01/01/realtime-django-1.html)
   - [Part 2](https://danidee10.github.io/2018/01/03/realtime-django-2.html)
@@ -515,7 +515,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Safety Guardrails for LLMs: LLaMA Guard Tutorial](https://colab.research.google.com/drive/1CfF0Bzzkd5VETmhsniksSpekpS-LKYtX)
 
 ### Machine Learning:
--[Build an ML Inference API with FastAPI and ONNX](https://www.youtube.com/watch?v=5PgqzVG9SCk)
+- [Build an ML Inference API with FastAPI and ONNX](https://www.youtube.com/watch?v=5PgqzVG9SCk)
 - [Write Linear Regression From Scratch in Python](https://www.youtube.com/watch?v=uwwWVAgJBcM) (video)
 - [Step-By-Step Machine Learning In Python](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
 - [Predict Quality Of Wine](https://medium.freecodecamp.org/using-machine-learning-to-predict-the-quality-of-wines-9e2e13d7480d)
@@ -526,7 +526,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Linear Regression in Python without sklearn](https://medium.com/we-are-orb/linear-regression-in-python-without-scikit-learn-50aef4b8d122)
 - [Multivariate Linear Regression without sklearn](https://medium.com/we-are-orb/multivariate-linear-regression-in-python-without-scikit-learn-7091b1d45905)
 - [Music Recommender using KNN](https://towardsdatascience.com/how-to-build-a-simple-song-recommender-296fcbc8c85)
-- Find Similar Quora Questions:
+- Find Similar Quora Questions: (Deprecated)
   - [Using BOW, TFIDF and Xgboost](https://towardsdatascience.com/finding-similar-quora-questions-with-bow-tfidf-and-random-forest-c54ad88d1370)
   - [Using Word2Vec and Xgboost](https://towardsdatascience.com/finding-similar-quora-questions-with-word2vec-and-xgboost-1a19ad272c0d)
 - [Detecting Fake News with Python and Machine Learning](https://data-flair.training/blogs/advanced-python-project-detecting-fake-news/)
@@ -604,11 +604,10 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [CNN using Keras to automatically classify root health](https://www.pyimagesearch.com/2018/10/15/deep-learning-hydroponics-and-medical-marijuana/)
 - [Keras vs Tensorflow](https://www.pyimagesearch.com/2018/10/08/keras-vs-tensorflow-which-one-is-better-and-which-one-should-i-learn/)
 - [Deep Learning and Medical Image Analysis for Malaria Detection](https://www.pyimagesearch.com/2018/12/03/deep-learning-and-medical-image-analysis-with-keras/)
-- [Transfer Learning for Image Classification using Keras](https://towardsdatascience.com/transfer-learning-for-image-classification-using-keras-c47ccf09c8c8)
+- [Transfer Learning for Image Classification using Keras](https://web.archive.org/web/20181220071910/https://towardsdatascience.com/transfer-learning-for-image-classification-using-keras-c47ccf09c8c8?gi=a6f33db2a665)
 - [Code a Smile Classifier using CNNS in Python](https://github.com/kylemcdonald/SmileCNN)
 - [Natural Language Processing using scikit-learn](https://web.archive.org/web/20200414132154/https://towardsdatascience.com/natural-language-processing-count-vectorization-with-scikit-learn-e7804269bb5e)
 - [Code a Taylor Swift Lyrics Generator](https://web.archive.org/web/20190706003619/https://towardsdatascience.com/ai-generates-taylor-swifts-song-lyrics-6fd92a03ef7e)
-- [Mask detection using PyTorch Lightning](https://web.archive.org/web/20241123225203/https://towardsdatascience.com/how-i-built-a-face-mask-detector-for-covid-19-using-pytorch-lightning-67eb3752fd61?gi=2cdae04f54a6)
 - [Create your first PPO (Proximal Policy Optimization) in Python: Deep Reinforcement Learning Course in Chinese](https://github.com/opendilab/PPOxFamily)
 
 ### Game Development:
@@ -708,7 +707,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 - [How To Build A Blog With Laravel](https://www.youtube.com/playlist?list=PLwAKR305CRO-Q90J---jXVzbOd4CDRbVx) (video)
 - [Make Your Own Blog (in Pure PHP)](http://ilovephp.jondh.me.uk/en/tutorial/make-your-own-blog)
-- [Build A Real Estate Website Example with SilverStripe](https://www.silverstripe.org/learn/lessons/)
+- [Build A Real Estate Website Example with SilverStripe](https://www.silverstripe.org/learn/lessons/) (deprecated)
 - [Building Realtime Chat App with Laravel 5.4 and VueJS](https://www.youtube.com/playlist?list=PLXsbBbd36_uVjOFH_P25__XAyGsohXWlv) (video)
 - [Build A Social Network: Laravel 5 - Youtube](https://www.youtube.com/playlist?list=PLfdtiltiRHWGGxaR6uFtwZnnbcXqyq8JD) (video)
 - Build a full-featured multi-tenant app with Laravel:
@@ -758,7 +757,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 ## R:
 
 - [Build Web Apps with Shiny](http://shiny.rstudio.com/tutorial/)
-- [Build A Cryptocurrency Bot](https://web.archive.org/web/20180530163142/https://towardsdatascience.com/build-a-cryptocurrency-trading-bot-with-r-1445c429e1b1) (Deprecated)
+- [Build A Cryptocurrency Bot](https://web.archive.org/web/20180530163142/https://towardsdatascience.com/build-a-cryptocurrency-trading-bot-with-r-1445c429e1b1)
 - [Learn Associate Rule Mining in R](https://towardsdatascience.com/association-rule-mining-in-r-ddf2d044ae50)
 - [Make a Linear regression in R](https://www.scribbr.com/statistics/linear-regression-in-r/)
 
@@ -784,7 +783,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 3](https://pwy.io/en/posts/learning-to-fly-pt3/)
   - [Part 4](https://pwy.io/en/posts/learning-to-fly-pt4/)
 - [Write a Toy VPN in Rust](https://write.yiransheng.com/vpn)
-- [Implementing BitTorrent in Rust](https://www.youtube.com/watch?v=fhEHBQog-Cc&t=6606s&ab_channel=JonGjengset)
+- [Implementing BitTorrent in Rust](https://www.youtube.com/watch?v=fhEHBQog-Cc)
 
 ## Scala:
 
@@ -820,7 +819,6 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Exercism](http://www.exercism.io/)
 - [Egghead.io](http://www.egghead.io/)
 - [Michael Herman's Blog](http://mherman.org/)
-- [Thinkster.io](http://thinkster.io)
 - [Ankur Tyagi's Blog](https://theankurtyagi.com/)
 - [Enlight](https://enlight.nyc/)
 - [Hack Club Workshops](https://hackclub.com/workshops/)
