@@ -584,6 +584,10 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Mask detection using PyTorch Lightning](https://web.archive.org/web/20241123225203/https://towardsdatascience.com/how-i-built-a-face-mask-detector-for-covid-19-using-pytorch-lightning-67eb3752fd61?gi=2cdae04f54a6)
 - [Create your first PPO (Proximal Policy Optimization) in Python: Deep Reinforcement Learning Course in Chinese](https://github.com/opendilab/PPOxFamily)
 
+### Game Development:
+
+- [Pygame Quick Start Guide](https://pygame-gui.readthedocs.io/en/latest/quick_start.html)
+
 ### Miscellaneous:
 
 - [Build a Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/)
