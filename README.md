@@ -456,6 +456,8 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Full Stack Web App (Spotify Music Controller App) with Django and React](https://www.youtube.com/playlist?list=PLzMcBGfZo4-kCLWnGmK0jUBmGLaJxvi4j) (Video Playlist)
 - [Build a Secure Task Management App with React and Appwrite](https://theankurtyagi.com/appwrite/)
 
+- [Python API Development - Comprehensive FastAPI Course for Beginners](https://www.youtube.com/watch?v=0sOvCWFmrtA)
+
 ### Bots:
 
 - [How to Make a Reddit Bot - YouTube](https://www.youtube.com/watch?v=krTUf7BpTc0) (video)
