@@ -475,6 +475,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 4](https://danidee10.github.io/2018/01/10/realtime-django-4.html)
   - [Part 5](https://danidee10.github.io/2018/01/13/realtime-django-5.html)
   - [Part 6](https://danidee10.github.io/2018/03/12/realtime-django-6.html)
+- [Developing and Testing an Asynchronous API with FastAPI and Pytest](https://testdriven.io/blog/fastapi-crud/)
 - [Python API development and CI/CD pipelines with FastAPI, Docker and More](https://www.youtube.com/watch?v=0sOvCWFmrtA) (video)
 - [Full Stack Web App (Spotify Music Controller App) with Django and React](https://www.youtube.com/playlist?list=PLzMcBGfZo4-kCLWnGmK0jUBmGLaJxvi4j) (Video Playlist)
 - [Build a Secure Task Management App with React and Appwrite](https://theankurtyagi.com/appwrite/)
