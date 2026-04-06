@@ -150,7 +150,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 21: Multi-player](https://helderman.github.io/htpataic/htpataic21.html)
   - [Part 22: Client-server](https://helderman.github.io/htpataic/htpataic22.html)
 
-### Network programming
+### Network programming:
 
 - Let's Code a TCP/IP Stack
 
@@ -236,12 +236,12 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Zoom Clone](https://youtu.be/sMA1dKbv33Y)
 - [Netflix Clone](https://youtu.be/J8IFNKzs3TI)
 
-## Elixir
+## Elixir:
 
 - [Building a Simple Chat App With Elixir and Phoenix](https://sheharyar.me/blog/simple-chat-phoenix-elixir/)
 - [How to write a super fast link shortener with Elixir, Phoenix, and Mnesia](https://medium.com/free-code-camp/how-to-write-a-super-fast-link-shortener-with-elixir-phoenix-and-mnesia-70ffa1564b3c) - [Source Code](https://github.com/bnchrch/shorten_api_tutorial)
 
-## Erlang
+## Erlang:
 
 - [ChatBus : build your first multi-user chat room app with Erlang/OTP](https://medium.com/@kansi/chatbus-build-your-first-multi-user-chat-room-app-with-erlang-otp-b55f72064901)
 - [Making a Chat App with Erlang, Rebar, Cowboy and Bullet](https://web.archive.org/web/20240523151250/https://marianoguerra.org/posts/making-a-chat-app-with-erlang-rebar-cowboy-and-bullet.html)
@@ -370,7 +370,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 - [Typescript: How To Build Your First TypeScript Project - TODO List Application (video)](https://www.youtube.com/watch?v=jBmrduvKl5w)
 
-#### Vue
+#### Vue:
 
 - [Vue 2 + Firebase: How to build a Vue app with Firebase authentication system in 15 minutes](https://medium.com/@anas.mammeri/vue-2-firebase-how-to-build-a-vue-app-with-firebase-authentication-system-in-15-minutes-fdce6f289c3c)
 - [Vue.js Application Tutorial – Creating a Simple Budgeting App with Vue](https://matthiashager.com/complete-vuejs-application-tutorial/)
@@ -391,7 +391,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - Build a Powerful API with NodeJs,GraphQL and Hapi:
   - [Part I](https://medium.com/@wesharehoodies/how-to-setup-a-powerful-api-with-nodejs-graphql-mongodb-hapi-and-swagger-e251ac189649)
 
-#### D3.js
+#### D3.js:
 
 - [Learn D3 using examples](https://www.sitepoint.com/d3-js-data-visualizations/)
 - [Learn To Make A Line Chart](https://medium.freecodecamp.org/learn-to-create-a-line-chart-using-d3-js-4f43f1ee716b)
@@ -833,8 +833,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Master Streamlit in one course - 4 Real Projects Included](https://youtu.be/eAgONwZ_dKM?si=NhmhJqSMWw9NJo1C)
 - [Complete Streamlit Python Course](https://youtu.be/RjiqbTLW9_E?si=TDOQjfGhGHHc26Iu)
 
-
-## Additional Resources
+## Additional Resources:
 
 - [React Redux Links](https://github.com/markerikson/react-redux-links)
 - [Udemy.com](https://www.udemy.com/)
