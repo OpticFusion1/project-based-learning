@@ -852,6 +852,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Enlight](https://enlight.nyc/)
 - [Hack Club Workshops](https://hackclub.com/workshops/)
 - [CodeCrafters](https://codecrafters.io/)
+- [SimpliLearn](https://www.simplilearn.com/learn-python-basics-free-course-skillup)
 - [LabEx](https://labex.io)
 - [Documentation](https://devdocs.io/)
 - [Full Stack Open](https://fullstackopen.com/en)
