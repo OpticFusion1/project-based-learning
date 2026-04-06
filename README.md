@@ -853,6 +853,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Enlight](https://enlight.nyc/)
 - [Hack Club Workshops](https://hackclub.com/workshops/)
 - [CodeCrafters](https://codecrafters.io/)
+- [Fullstackopen](https://fullstackopen.com/en/)
 - [Documentation](https://devdocs.io/)
 - [Cyberclopaedia](https://cr0mll.github.io/cyberclopaedia/Cyberclopaedia/index.html)
 - [SimpliLearn](https://www.simplilearn.com/learn-python-basics-free-course-skillup)
