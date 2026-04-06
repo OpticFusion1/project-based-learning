@@ -695,6 +695,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Building a TCP Chat in Go(video)](https://www.youtube.com/watch?v=Sphme0BqJiY)
 - [Building a BitTorrent client from the ground up in Go](https://blog.jse.li/posts/torrent/)
 - [REST API masterclass with Go, PostgreSQL and Docker(video playlist)`in progress`](https://www.youtube.com/watch?v=rx6CPDK_5mU&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
+- [Go In One Evening - learn Go by creating a real-life projects](https://threedots.tech/go-in-one-evening/?utm_source=project-based-learning)
 - [Let's Create a Simple Load Balancer With Go](https://kasvith.me/posts/lets-create-a-simple-lb-go/)
 - [Building a beginner friendly project in Go](https://www.youtube.com/watch?v=jFfo23yIWac)
 - [Golang Restaurant Management Backend Project](https://www.youtube.com/watch?v=uhQJAZE6KTQ)
