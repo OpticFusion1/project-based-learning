@@ -801,6 +801,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 2](https://pwy.io/en/posts/learning-to-fly-pt2/)
   - [Part 3](https://pwy.io/en/posts/learning-to-fly-pt3/)
   - [Part 4](https://pwy.io/en/posts/learning-to-fly-pt4/)
+- [A tutorial of building an LSM-Tree storage engine in a week!](https://github.com/skyzh/mini-lsm)
 - [Write a Toy VPN in Rust](https://write.yiransheng.com/vpn)
 - [Implementing BitTorrent in Rust](https://www.youtube.com/watch?v=fhEHBQog-Cc)
 
