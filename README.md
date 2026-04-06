@@ -267,6 +267,10 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 ## JavaScript:
 
 - [Build 30 things in 30 days with 30 tutorials](https://javascript30.com)
+- [Build 30 frontend things with 30 tutorials](https://frontend-30.vercel.app/)
+- [Build an App in Pure JS](https://medium.com/codingthesmartway-com-blog/pure-javascript-building-a-real-world-application-from-scratch-5213591cfcd6)
+- [Build a Jupyter Notebook Extension](https://link.medium.com/wWUO7TN8SS)
+- [Build a TicTacToe Game with JavaScript](https://medium.com/javascript-in-plain-english/build-tic-tac-toe-game-using-javascript-3afba3c8fdcc)
 - [Build an App in Pure JS](https://web.archive.org/web/20230329010417/https://medium.com/codingthesmartway-com-blog/pure-javascript-building-a-real-world-application-from-scratch-5213591cfcd6)
 - [Build a TicTacToe Game with JavaScript](https://web.archive.org/web/20200726074038/ttps://medium.com/javascript-in-plain-english/build-tic-tac-toe-game-using-javascript-3afba3c8fdcc)
 - [Build a Simple Weather App With Vanilla JavaScript](https://webdesign.tutsplus.com/tutorials/build-a-simple-weather-app-with-vanilla-javascript--cms-33893)
