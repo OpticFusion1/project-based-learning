@@ -52,6 +52,8 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ## C/C++:
 
+- [Build an Interpreter](http://www.craftinginterpreters.com/) (Chapters 14 and onwards are written in C)
+- [Knowing C++ STL](https://www.youtube.com/watch?v=RRVYpIET_RU&t=2458s) (This might be essentiial and helps in reducing Time Complexity)
 - [Build an Interpreter](https://web.archive.org/web/20210110010628/http://www.craftinginterpreters.com/) (Chapter 14 on is written in C)
 - [Memory Allocators 101 - Write a simple memory allocator](https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory)
 - [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
@@ -148,7 +150,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 21: Multi-player](https://helderman.github.io/htpataic/htpataic21.html)
   - [Part 22: Client-server](https://helderman.github.io/htpataic/htpataic22.html)
 
-### Network programming
+### Network programming:
 
 - Let's Code a TCP/IP Stack
 
@@ -200,6 +202,8 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 - [Learn C# By Building a Simple RPG Game](http://scottlilly.com/learn-c-by-building-a-simple-rpg-index/)
 - [Create a Rogue-like game in C#](https://roguesharp.wordpress.com/)
+- [Create a Blank App with C# and Xamarin (work in progress)](https://www.intertech.com/Blog/xamarin-tutorial-part-1-create-a-blank-app/)
+- [(Deprecated) Build iOS Photo Library App with Xamarin and Visual Studio](https://www.raywenderlich.com/134049/building-ios-apps-with-xamarin-and-visual-studio)
 - [Create a Blank App with C# and Xamarin (work in progress)](https://www.intertech.com/Blog/xamarin-tutorial-part-1-create-a-blank-app/) (Deprecated)
 - [Build iOS Photo Library App with Xamarin and Visual Studio](https://www.raywenderlich.com/134049/building-ios-apps-with-xamarin-and-visual-studio) (Deprecated)
 - [Building the CoreWiki](https://www.youtube.com/playlist?list=PLVMqA0_8O85yC78I4Xj7z48ES48IQBa7p) This is a Wiki-style content management system that has been completely written in C# with ASP.NET Core and Razor Pages. You can find the source code [here](https://github.com/csharpfritz/CoreWiki).
@@ -232,12 +236,12 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Zoom Clone](https://youtu.be/sMA1dKbv33Y)
 - [Netflix Clone](https://youtu.be/J8IFNKzs3TI)
 
-## Elixir
+## Elixir:
 
 - [Building a Simple Chat App With Elixir and Phoenix](https://sheharyar.me/blog/simple-chat-phoenix-elixir/)
 - [How to write a super fast link shortener with Elixir, Phoenix, and Mnesia](https://medium.com/free-code-camp/how-to-write-a-super-fast-link-shortener-with-elixir-phoenix-and-mnesia-70ffa1564b3c) - [Source Code](https://github.com/bnchrch/shorten_api_tutorial)
 
-## Erlang
+## Erlang:
 
 - [ChatBus : build your first multi-user chat room app with Erlang/OTP](https://medium.com/@kansi/chatbus-build-your-first-multi-user-chat-room-app-with-erlang-otp-b55f72064901)
 - [Making a Chat App with Erlang, Rebar, Cowboy and Bullet](https://web.archive.org/web/20240523151250/https://marianoguerra.org/posts/making-a-chat-app-with-erlang-rebar-cowboy-and-bullet.html)
@@ -256,14 +260,23 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Fetch data using MySQL](https://spring.io/guides/gs/accessing-data-mysql)
 - [Code a 2D Game Engine using Java - Full Course for Beginners](https://www.youtube.com/watch?v=025QFeZfeyM)
 - [Build a simple form submission](https://spring.io/guides/gs/handling-form-submission)
+- [Fetch data using MySQL](https://spring.io/guides/gs/accessing-data-mysql)
+- [Code a 2D Game Engine using Java - Full Course for Beginners](https://www.youtube.com/watch?v=025QFeZfeyM)
+- [Build a simple form submission](https://spring.io/guides/gs/handling-form-submission)
 
 ## JavaScript:
 
 - [Build 30 things in 30 days with 30 tutorials](https://javascript30.com)
+- [Build 30 frontend things with 30 tutorials](https://frontend-30.vercel.app/)
+- [Build an App in Pure JS](https://medium.com/codingthesmartway-com-blog/pure-javascript-building-a-real-world-application-from-scratch-5213591cfcd6)
+- [Build a Jupyter Notebook Extension](https://link.medium.com/wWUO7TN8SS)
+- [Build a TicTacToe Game with JavaScript](https://medium.com/javascript-in-plain-english/build-tic-tac-toe-game-using-javascript-3afba3c8fdcc)
 - [Build an App in Pure JS](https://web.archive.org/web/20230329010417/https://medium.com/codingthesmartway-com-blog/pure-javascript-building-a-real-world-application-from-scratch-5213591cfcd6)
 - [Build a TicTacToe Game with JavaScript](https://web.archive.org/web/20200726074038/ttps://medium.com/javascript-in-plain-english/build-tic-tac-toe-game-using-javascript-3afba3c8fdcc)
 - [Build a Simple Weather App With Vanilla JavaScript](https://webdesign.tutsplus.com/tutorials/build-a-simple-weather-app-with-vanilla-javascript--cms-33893)
 - [Build a Todo List App in JavaScript](https://github.com/dwyl/javascript-todo-list-tutorial)
+- [Build projects to master JavaScript essentials](https://www.freecodecamp.org/news/javascript-essentials/)
+- [Build a Simple Weather App with JS](https://www.youtube.com/watch?v=psZ1g9fMIDA)
 - [Build a portfolio website with Javascript, HTML and CSS](https://www.freecodecamp.org/news/how-to-create-a-portfolio-website-using-html-css-javascript-and-bootstrap/)
 - [Build a simple URL shortener with javaScript](https://www.freecodecamp.org/news/building-a-simple-url-shortener-with-just-html-and-javascript-6ea1ecda308c/?source=post_page-----54c80de4f48c--------------------------------)
 - [Build memory game in javascript](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae)
@@ -281,7 +294,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 - [Build A Loading Screen](https://medium.freecodecamp.org/how-to-build-a-delightful-loading-screen-in-5-minutes-847991da509f)
 - [Build an HTML Calculator with JS](https://medium.freecodecamp.org/how-to-build-an-html-calculator-app-from-scratch-using-javascript-4454b8714b98)
-- [Build Snake using only JavaScript, HTML & CSS](https://www.freecodecamp.org/news/think-like-a-programmer-how-to-build-snake-using-only-javascript-html-and-css-7b1479c3339e/)
+- [Build Snake using only JavaScript, HTML & CSS](https://medium.com/free-code-camp/think-like-a-programmer-how-to-build-snake-using-only-javascript-html-and-css-7b1479c3339e)
 - [Build A Premium E-Commerce Site ](https://github.com/sagarkagi123/EliteCommerce.git)
 
 ### Mobile Application:
@@ -325,6 +338,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 6](https://www.youtube.com/watch?v=Jvp8j6zrFHE)
   - [Part 7](https://www.youtube.com/watch?v=M_hFfrN8_PQ)
 - [React Phone E-Commerce Project(video)](https://www.youtube.com/watch?v=-edmQKcOW8s)
+- [React Full Stack JavaScript self learning course](https://www.theodinproject.com/paths/full-stack-javascript)
 - [Build a Secure E-Commerce App with SuperTokens and Hasura GraphQL](https://theankurtyagi.com/build-a-secure-e-commerce-app-with-supertokens-and-hasura-graphql/)
 
 #### Angular:
@@ -350,6 +364,8 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 1](https://codeburst.io/build-a-simple-twitter-bot-with-node-js-in-just-38-lines-of-code-ed92db9eb078)
   - [Part 2](https://codeburst.io/build-a-simple-twitter-bot-with-node-js-part-2-do-more-2ef1e039715d)
 - [Build A Simple Search Bot in 30 minutes](https://medium.freecodecamp.org/how-to-build-a-simple-search-bot-in-30-minutes-eb56fcedcdb1)
+- [Build A Job Scraping Web App](https://medium.freecodecamp.org/how-i-built-a-job-scraping-web-app-using-node-js-and-indreed-7fbba124bbdc)
+- [Build A Bank Application with Node.js](https://www.youtube.com/playlist?list=PL8YhozOQUteYwa13S-PGUNMM37gv7gEVq) 
 - [Building a GitHub App](https://blog.scottlogic.com/2017/05/22/gifbot-github-integration.html)
 - How to build your own Uber-for-X App using JavaScript, Node.JS, MongoDB and Web Sockets:
   - [Part 1](https://www.ashwinhariharan.tech/blog/how-to-build-your-own-uber-for-x-app/)
@@ -359,7 +375,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 - [Typescript: How To Build Your First TypeScript Project - TODO List Application (video)](https://www.youtube.com/watch?v=jBmrduvKl5w)
 
-#### Vue
+#### Vue:
 
 - [Vue 2 + Firebase: How to build a Vue app with Firebase authentication system in 15 minutes](https://medium.com/@anas.mammeri/vue-2-firebase-how-to-build-a-vue-app-with-firebase-authentication-system-in-15-minutes-fdce6f289c3c)
 - [Vue.js Application Tutorial – Creating a Simple Budgeting App with Vue](https://matthiashager.com/complete-vuejs-application-tutorial/)
@@ -380,7 +396,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - Build a Powerful API with NodeJs,GraphQL and Hapi:
   - [Part I](https://medium.com/@wesharehoodies/how-to-setup-a-powerful-api-with-nodejs-graphql-mongodb-hapi-and-swagger-e251ac189649)
 
-#### D3.js
+#### D3.js:
 
 - [Learn D3 using examples](https://www.sitepoint.com/d3-js-data-visualizations/)
 - [Learn To Make A Line Chart](https://medium.freecodecamp.org/learn-to-create-a-line-chart-using-d3-js-4f43f1ee716b)
@@ -464,6 +480,12 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Build A Simple Web App With Flask](https://pythonspot.com/flask-web-app-with-python/)
 - [Build a Secure Task Management App with React and Appwrite](https://theankurtyagi.com/appwrite/)
 - [Create A Django API in under 20 minutes](https://codeburst.io/create-a-django-api-in-under-20-minutes-2a082a60f6f3)
+- [How to Add Authentication to Your App with Flask-Login](https://www.geeksforgeeks.org/python/how-to-add-authentication-to-your-app-with-flask-login/)
+- [Building a Simple CRUD API with Django](https://medium.com/@techtinkerbell/building-a-simple-crud-api-with-django-a-step-by-step-guide-2672fc769fee)
+- Build a Community-driven delivery application with Django, Postgres and JavaScript
+  - [Part 1](https://www.ashwinhariharan.tech/blog/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead/)
+  - [Part 2](https://www.ashwinhariharan.tech/blog/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-part-2/)
+- Realtime Chat application with Vue, django-notifs, RabbitMQ and uWSGI
 - [Building an Interactive Question Answering App with Streamlit, Transformers, and Langchain WikipediaAPIWrapper](https://medium.com/@anoopjohny2000/building-an-interactive-question-answering-app-with-streamlit-transformers-and-langchain-13b338cfe534)
 - Build a Community-driven delivery application with Django, Postgres and JavaScript:
   - [Part 1](https://web.archive.org/web/20211025231809/https://www.ashwinhariharan.tech/blog/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead/)
@@ -475,6 +497,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 4](https://danidee10.github.io/2018/01/10/realtime-django-4.html)
   - [Part 5](https://danidee10.github.io/2018/01/13/realtime-django-5.html)
   - [Part 6](https://danidee10.github.io/2018/03/12/realtime-django-6.html)
+- [Introduction to web programming with Python](https://www.youtube.com/watch?v=vzGllw18DkA&t=65s)
 - [Developing and Testing an Asynchronous API with FastAPI and Pytest](https://testdriven.io/blog/fastapi-crud/)
 - [Python API development and CI/CD pipelines with FastAPI, Docker and More](https://www.youtube.com/watch?v=0sOvCWFmrtA) (video)
 - [Full Stack Web App (Spotify Music Controller App) with Django and React](https://www.youtube.com/playlist?list=PLzMcBGfZo4-kCLWnGmK0jUBmGLaJxvi4j) (Video Playlist)
@@ -484,6 +507,8 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ### Bots:
 
+- [Build a WhatsApp Bot with Python and Twilio](https://www.twilio.com/docs/whatsapp/tutorial/send-and-receive-media-messages-whatsapp-python)
+- [Build a Reddit Bot](http://pythonforengineers.com/build-a-reddit-bot-part-1/)
 - [How to Make a Reddit Bot - YouTube](https://www.youtube.com/watch?v=krTUf7BpTc0) (video)
 - [Build a Facebook Messenger Bot](https://blog.hartleybrody.com/fb-messenger-bot/)
 - [Making a Reddit + Facebook Messenger Bot](https://pythontips.com/2017/04/13/making-a-reddit-facebook-messenger-bot/)
@@ -531,6 +556,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Using BOW, TFIDF and Xgboost](https://towardsdatascience.com/finding-similar-quora-questions-with-bow-tfidf-and-random-forest-c54ad88d1370)
   - [Using Word2Vec and Xgboost](https://towardsdatascience.com/finding-similar-quora-questions-with-word2vec-and-xgboost-1a19ad272c0d)
 - [Detecting Fake News with Python and Machine Learning](https://data-flair.training/blogs/advanced-python-project-detecting-fake-news/)
+- [Email Spam Project End-to-End Machine Learning Using Kaggle Dataset](https://github.com/SheharyarAltaf/Email--Spam-Classifier)
 - [Machine Learning 2023](https://www.youtube.com/playlist?list=PLZoTAELRMXVPMbdMTjwolBI0cJcvASePD)
 - [Live Machine Learning](https://www.youtube.com/playlist?list=PLZoTAELRMXVPjaAzURB77Kz0YXxj65tYz)
 - [ML Usecases](https://www.youtube.com/playlist?list=PLZoTAELRMXVPjvhLlo7v6H-emT8tNkRaW)
@@ -639,6 +665,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [How to Build a Full Stack Notes App Using React and Supabase – The Complete Guide](https://theankurtyagi.com/notes-app-react-supabase/)
 - [A Python implementation of a Python bytecode runner](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
 - [Create a Voice assistant using Python](https://www.geeksforgeeks.org/voice-assistant-using-python/)
+- [Introduction to LLM Fine-Tuning](https://www.digitalocean.com/community/tutorials/llm-finetuning-domain-specific-models)
 - [Create a Matrix Screensaver in Python](https://medium.com/@ericvanrees/create-a-matrix-digital-rain-screensaver-with-python-pt-1-ae11e661edef)
 - [How to Build a Full Stack Notes App Using React and Supabase – The Complete Guide](https://theankurtyagi.com/notes-app-react-supabase/)
 
@@ -683,6 +710,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Building a BitTorrent client from the ground up in Go](https://blog.jse.li/posts/torrent/)
 - [REST API masterclass with Go, PostgreSQL and Docker(video playlist)`in progress`](https://www.youtube.com/watch?v=rx6CPDK_5mU&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
 - [Building Microservices with Go (video playlist)](https://www.youtube.com/watch?v=VzBGi_n65iU&list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_)
+- [Go In One Evening - learn Go by creating a real-life projects](https://threedots.tech/go-in-one-evening/?utm_source=project-based-learning)
 - [Let's Create a Simple Load Balancer With Go](https://kasvith.me/posts/lets-create-a-simple-lb-go/)
 - [Building a beginner friendly project in Go](https://www.youtube.com/watch?v=jFfo23yIWac)
 - [Golang Restaurant Management Backend Project](https://www.youtube.com/watch?v=uhQJAZE6KTQ)
@@ -785,6 +813,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 2](https://pwy.io/en/posts/learning-to-fly-pt2/)
   - [Part 3](https://pwy.io/en/posts/learning-to-fly-pt3/)
   - [Part 4](https://pwy.io/en/posts/learning-to-fly-pt4/)
+- [A tutorial of building an LSM-Tree storage engine in a week!](https://github.com/skyzh/mini-lsm)
 - [Write a Toy VPN in Rust](https://write.yiransheng.com/vpn)
 - [Implementing BitTorrent in Rust](https://www.youtube.com/watch?v=fhEHBQog-Cc)
 
@@ -810,8 +839,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Master Streamlit in one course - 4 Real Projects Included](https://youtu.be/eAgONwZ_dKM?si=NhmhJqSMWw9NJo1C)
 - [Complete Streamlit Python Course](https://youtu.be/RjiqbTLW9_E?si=TDOQjfGhGHHc26Iu)
 
-
-## Additional Resources
+## Additional Resources:
 
 - [React Redux Links](https://github.com/markerikson/react-redux-links)
 - [Udemy.com](https://www.udemy.com/)
@@ -826,6 +854,11 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Enlight](https://enlight.nyc/)
 - [Hack Club Workshops](https://hackclub.com/workshops/)
 - [CodeCrafters](https://codecrafters.io/)
+- [Fullstackopen](https://fullstackopen.com/en/)
+- [Documentation](https://devdocs.io/)
+- [Cyberclopaedia](https://cr0mll.github.io/cyberclopaedia/Cyberclopaedia/index.html)
+- [SimpliLearn](https://www.simplilearn.com/learn-python-basics-free-course-skillup)
+- [LabEx](https://labex.io)
 - [Documentation](https://devdocs.io/)
 - [Full Stack Open](https://fullstackopen.com/en)
 - [Cyberclopaedia](https://cr0mll.github.io/cyberclopaedia/Cyberclopaedia/index.html)
