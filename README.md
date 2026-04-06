@@ -491,6 +491,8 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ### Bots:
 
+- [Build a WhatsApp Bot with Python and Twilio](https://www.twilio.com/docs/whatsapp/tutorial/send-and-receive-media-messages-whatsapp-python)
+- [Build a Reddit Bot](http://pythonforengineers.com/build-a-reddit-bot-part-1/)
 - [How to Make a Reddit Bot - YouTube](https://www.youtube.com/watch?v=krTUf7BpTc0) (video)
 - [Build a Facebook Messenger Bot](https://blog.hartleybrody.com/fb-messenger-bot/)
 - [Making a Reddit + Facebook Messenger Bot](https://pythontips.com/2017/04/13/making-a-reddit-facebook-messenger-bot/)
