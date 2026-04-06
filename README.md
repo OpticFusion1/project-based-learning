@@ -265,6 +265,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Build a TicTacToe Game with JavaScript](https://web.archive.org/web/20200726074038/ttps://medium.com/javascript-in-plain-english/build-tic-tac-toe-game-using-javascript-3afba3c8fdcc)
 - [Build a Simple Weather App With Vanilla JavaScript](https://webdesign.tutsplus.com/tutorials/build-a-simple-weather-app-with-vanilla-javascript--cms-33893)
 - [Build a Todo List App in JavaScript](https://github.com/dwyl/javascript-todo-list-tutorial)
+- [Build a Simple Weather App with JS](https://www.youtube.com/watch?v=psZ1g9fMIDA)
 - [Build a portfolio website with Javascript, HTML and CSS](https://www.freecodecamp.org/news/how-to-create-a-portfolio-website-using-html-css-javascript-and-bootstrap/)
 - [Build a simple URL shortener with javaScript](https://www.freecodecamp.org/news/building-a-simple-url-shortener-with-just-html-and-javascript-6ea1ecda308c/?source=post_page-----54c80de4f48c--------------------------------)
 - [Build memory game in javascript](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae)
