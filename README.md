@@ -1,15 +1,15 @@
 # Project Based Learning
 
-[![Gitter](https://badges.gitter.im/practical-tutorials/community.svg)](https://gitter.im/practical-tutorials/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
 A list of programming tutorials in which aspiring software developers learn how to build an application from scratch. These tutorials are divided into different primary programming languages. Tutorials may involve multiple technologies and languages.
 
 To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
 ## Table of Contents:
 
-- [C#](#c)
+- [Assembly](#Assembly)
+- [AWS](#aws)
 - [C/C++](#cc)
+- [C#](#c)
 - [Clojure](#clojure)
 - [Dart](#dart)
 - [Elixir](#elixir)
@@ -20,6 +20,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [HTML/CSS](#html-and-css)
 - [Java](#java)
 - [JavaScript](#javascript)
+- [Julia](#julia)
 - [Kotlin](#kotlin)
 - [Lua](#lua)
 - [OCaml](#ocaml)
@@ -29,12 +30,31 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Ruby](#ruby)
 - [Rust](#rust)
 - [Scala](#scala)
+- [SQL](#SQL)
 - [Swift](#swift)
+- [Streamlit](#streamlit)
 - [Additional resources](#additional-resources)
+
+## Assembly:
+
+- [Learn basics of Assembly](https://github.com/D-Sensei/ASM/tree/main/Basics)
+- Projects:
+  - [Build a Calculator](https://github.com/D-Sensei/ASM/tree/main/Calculator)
+  - [Create a Parking Mangement system](https://github.com/D-Sensei/ASM/tree/main/Parking-Management-System)
+  - [Build a Ticktactoe game](https://github.com/D-Sensei/ASM/tree/main/Ticktactoe)
+  - [Digital Clock](https://github.com/D-Sensei/ASM/tree/main/digital-lock)
+- [Resource/Books](https://github.com/D-Sensei/ASM/blob/main/Resources/Books.md)
+- [Installations](https://github.com/D-Sensei/ASM/blob/main/README.md)
+
+## AWS
+
+- [Zero to Hero Playlist](https://youtube.com/playlist?list=PLdpzxOOAlwvLNOxX0RfndiYSt1Le9azze&si=vgdbbf84dAXg33GE)
 
 ## C/C++:
 
-- [Build an Interpreter](http://www.craftinginterpreters.com/) (Chapter 14 on is written in C)
+- [Build an Interpreter](http://www.craftinginterpreters.com/) (Chapters 14 and onwards are written in C)
+- [Knowing C++ STL](https://www.youtube.com/watch?v=RRVYpIET_RU&t=2458s) (This might be essentiial and helps in reducing Time Complexity)
+- [Build an Interpreter](https://web.archive.org/web/20210110010628/http://www.craftinginterpreters.com/) (Chapter 14 on is written in C)
 - [Memory Allocators 101 - Write a simple memory allocator](https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory)
 - [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
 - [Write a FUSE Filesystem](https://www.cs.nmsu.edu/~pfeiffer/fuse-tutorial/)
@@ -46,16 +66,17 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Building a CHIP-8 Emulator](https://austinmorlan.com/posts/chip8_emulator/)
 - [Beginning Game Programming with C++ and SDL](http://lazyfoo.net/tutorials/SDL/)
 - [Implementing a Key-Value Store](http://codecapsule.com/2012/11/07/ikvs-implementing-a-key-value-store-table-of-contents/)
-- Tiny 3D graphics projects
+- Tiny 3D graphics projects:
   - [Tiny Renderer or how OpenGL works: software rendering in 500 lines of code](https://github.com/ssloy/tinyrenderer/wiki)
   - [Understandable RayTracing in 256 lines of bare C++](https://github.com/ssloy/tinyraytracer/wiki)
   - [KABOOM! in 180 lines of bare C++](https://github.com/ssloy/tinykaboom/wiki)
   - [486 lines of C++: old-school FPS in a weekend](https://github.com/ssloy/tinyraycaster/wiki)
-- Writing a minimal x86-64 JIT compiler in C++
+- Writing a minimal x86-64 JIT compiler in C++:
   - [Part 1](https://solarianprogrammer.com/2018/01/10/writing-minimal-x86-64-jit-compiler-cpp/)
   - [Part 2](https://solarianprogrammer.com/2018/01/12/writing-minimal-x86-64-jit-compiler-cpp-part-2/)
 - [Build a Live Code-reloader Library for C++](http://howistart.org/posts/cpp/1/index.html)
 - [Write a hash table in C](https://github.com/jamesroutley/write-a-hash-table)
+- [Write Graph Representations in C++](https://github.com/andrewfaircloth/graph-representations-guide)
 - [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
 - [Let's Write a Kernel](http://arjunsreedharan.org/post/82710718100/kernel-101-lets-write-a-kernel)
 - [Write a Bootloader in C](http://3zanders.co.uk/2017/10/13/writing-a-bootloader/)
@@ -63,7 +84,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Write Your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/)
 - [Learning KVM - Implement Your Own Linux Kernel](https://david942j.blogspot.com/2018/10/note-learning-kvm-implement-your-own.html)
 - [Build Your Own Redis with C/C++](https://build-your-own.org/redis/)
-- Write a C compiler
+- Write a C compiler:
   - [Part 1: Integers, Lexing and Code Generation](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
   - [Part 2: Unary Operators](https://norasandler.com/2017/12/05/Write-a-Compiler-2.html)
   - [Part 3: Binary Operators](https://norasandler.com/2017/12/15/Write-a-Compiler-3.html)
@@ -75,16 +96,16 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 9: Functions](https://norasandler.com/2018/06/27/Write-a-Compiler-9.html)
   - [Part 10: Global Variables](https://norasandler.com/2019/02/18/Write-a-Compiler-10.html)
 - [Implementing a Language with LLVM](https://llvm.org/docs/tutorial/#kaleidoscope-implementing-a-language-with-llvm)
-- [Meta Crush Saga: a C++17 compile-time game](https://jguegant.github.io//jguegant.github.io/blogs/tech/meta-crush-saga.html)
+- [Meta Crush Saga: a C++17 compile-time game](https://jguegant.github.io/blogs/tech/meta-crush-saga.html#meta-crush-saga)
 - [High-Performance Matrix Multiplication](https://gist.github.com/nadavrot/5b35d44e8ba3dd718e595e40184d03f0)
-- Space Invaders from Scratch
+- Space Invaders from Scratch:
   - [Part 1](http://nicktasios.nl/posts/space-invaders-from-scratch-part-1.html)
   - [Part 2](http://nicktasios.nl/posts/space-invaders-from-scratch-part-2.html)
   - [Part 3](http://nicktasios.nl/posts/space-invaders-from-scratch-part-3.html)
   - [Part 4](http://nicktasios.nl/posts/space-invaders-from-scratch-part-4.html)
   - [Part 5](http://nicktasios.nl/posts/space-invaders-from-scratch-part-5.html)
 - [Tetris Tutorial in C++ Platform Independent](http://javilop.com/gamedev/tetris-tutorial-in-c-platform-independent-focused-in-game-logic-for-beginners/)
-- Writing a Linux Debugger
+- Writing a Linux Debugger:
   - [Part 1: Setup](https://blog.tartanllama.xyz/writing-a-linux-debugger-setup/)
   - [Part 2: Breakpoints](https://blog.tartanllama.xyz/writing-a-linux-debugger-breakpoints/)
   - [Part 3: Registers and memory](https://blog.tartanllama.xyz/writing-a-linux-debugger-registers/)
@@ -95,7 +116,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 8: Stack unwinding](https://blog.tartanllama.xyz/writing-a-linux-debugger-unwinding/)
   - [Part 9: Handling variables](https://blog.tartanllama.xyz/writing-a-linux-debugger-variables/)
   - [Part 10: Advanced topics](https://blog.tartanllama.xyz/writing-a-linux-debugger-advanced-topics/)
-- Let's write a compiler
+- Let's write a compiler:
   - [Part 1: Introduction, selecting a language, and doing some planning](https://briancallahan.net/blog/20210814.html)
   - [Part 2: A lexer](https://briancallahan.net/blog/20210815.html)
   - [Part 3: A parser](https://briancallahan.net/blog/20210816.html)
@@ -104,8 +125,32 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 6: Input and output](https://briancallahan.net/blog/20210819.html)
   - [Part 7: Arrays](https://briancallahan.net/blog/20210822.html)
   - [Part 8: Strings, forward references, and conclusion](https://briancallahan.net/blog/20210826.html)
+- [Using C to Simulate LC2K](https://github.com/ekmackie1/Use-C-To-Simulate-Your-Own-LC2K/tree/main)
+- How to program a text adventure in C
+  - [Part 1: Introduction](https://helderman.github.io/htpataic/htpataic01.html)
+  - [Part 2: The main loop](https://helderman.github.io/htpataic/htpataic02.html)
+  - [Part 3:Locations](https://helderman.github.io/htpataic/htpataic03.html)
+  - [Part 4:Objects](https://helderman.github.io/htpataic/htpataic04.html)
+  - [Part 5:Inventory](https://helderman.github.io/htpataic/htpataic05.html)
+  - [Part 6:Passages](https://helderman.github.io/htpataic/htpataic06.html)
+  - [Part 7:Distance](https://helderman.github.io/htpataic/htpataic07.html)
+  - [Part 8:North, east, south, west](https://helderman.github.io/htpataic/htpataic08.html)
+  - [Part 9:Code generation](https://helderman.github.io/htpataic/htpataic09.html)
+  - [Part 10: More attributes](https://helderman.github.io/htpataic/htpataic10.html)
+  - [Part 11: Conditions](https://helderman.github.io/htpataic/htpataic11.html)
+  - [Part 12: Open and close](https://helderman.github.io/htpataic/htpataic12.html)
+  - [Part 13: The parser](https://helderman.github.io/htpataic/htpataic13.html)
+  - [Part 14: Multiple nouns](https://helderman.github.io/htpataic/htpataic14.html)
+  - [Part 15: Light and dark](https://helderman.github.io/htpataic/htpataic15.html)
+  - [Part 16: Savegame](https://helderman.github.io/htpataic/htpataic16.html)
+  - [Part 17: Test automation](https://helderman.github.io/htpataic/htpataic17.html)
+  - [Part 18: Abbreviations](https://helderman.github.io/htpataic/htpataic18.html)
+  - [Part 19: Conversations](https://helderman.github.io/htpataic/htpataic19.html)
+  - [Part 20: Combat](https://helderman.github.io/htpataic/htpataic20.html)
+  - [Part 21: Multi-player](https://helderman.github.io/htpataic/htpataic21.html)
+  - [Part 22: Client-server](https://helderman.github.io/htpataic/htpataic22.html)
 
-### Network programming
+### Network programming:
 
 - Let's Code a TCP/IP Stack
 
@@ -135,12 +180,12 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ### OpenGL:
 
-- Creating 2D Breakout game clone in C++ with OpenGL
+- Creating 2D Breakout game clone in C++ with OpenGL:
   - [Breakout](https://learnopengl.com/In-Practice/2D-Game/Breakout)
   - [Setting up](https://learnopengl.com/In-Practice/2D-Game/Setting-up)
   - [Rendering Sprites](https://learnopengl.com/In-Practice/2D-Game/Rendering-Sprites)
   - [Levels](https://learnopengl.com/In-Practice/2D-Game/Levels)
-  - Collisions
+  - Collisions:
     - [Ball](https://learnopengl.com/In-Practice/2D-Game/Collisions/Ball)
     - [Collision detection](https://learnopengl.com/In-Practice/2D-Game/Collisions/Collision-detection)
     - [Collision resolution](https://learnopengl.com/In-Practice/2D-Game/Collisions/Collision-resolution)
@@ -158,18 +203,22 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Learn C# By Building a Simple RPG Game](http://scottlilly.com/learn-c-by-building-a-simple-rpg-index/)
 - [Create a Rogue-like game in C#](https://roguesharp.wordpress.com/)
 - [Create a Blank App with C# and Xamarin (work in progress)](https://www.intertech.com/Blog/xamarin-tutorial-part-1-create-a-blank-app/)
-- [Build iOS Photo Library App with Xamarin and Visual Studio](https://www.raywenderlich.com/134049/building-ios-apps-with-xamarin-and-visual-studio)
+- [(Deprecated) Build iOS Photo Library App with Xamarin and Visual Studio](https://www.raywenderlich.com/134049/building-ios-apps-with-xamarin-and-visual-studio)
+- [Create a Blank App with C# and Xamarin (work in progress)](https://www.intertech.com/Blog/xamarin-tutorial-part-1-create-a-blank-app/) (Deprecated)
+- [Build iOS Photo Library App with Xamarin and Visual Studio](https://www.raywenderlich.com/134049/building-ios-apps-with-xamarin-and-visual-studio) (Deprecated)
 - [Building the CoreWiki](https://www.youtube.com/playlist?list=PLVMqA0_8O85yC78I4Xj7z48ES48IQBa7p) This is a Wiki-style content management system that has been completely written in C# with ASP.NET Core and Razor Pages. You can find the source code [here](https://github.com/csharpfritz/CoreWiki).
 
 ## Clojure:
 
-- [Build a Twitter Bot with Clojure](http://howistart.org/posts/clojure/1/index.html)
+- [Build a Twitter Bot with Clojure](http://howistart.org/posts/clojure/1/index.html) (deprecated)
 - [Building a Spell-Checker](https://bernhardwenzel.com/articles/clojure-spellchecker/)
 - [Building a JIRA integration with Clojure & Atlassian Connect](https://hackernoon.com/building-a-jira-integration-with-clojure-atlassian-connect-506ebd112807)
 - [Prototyping with Clojure](https://github.com/aliaksandr-s/prototyping-with-clojure)
 - [Tetris in ClojureScript](https://shaunlebron.github.io/t3tr0s-slides)
 
 ## Dart:
+
+- [Official Documentation](https://dart.dev/)
 
 ### Flutter:
 
@@ -187,15 +236,15 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Zoom Clone](https://youtu.be/sMA1dKbv33Y)
 - [Netflix Clone](https://youtu.be/J8IFNKzs3TI)
 
-## Elixir
+## Elixir:
 
 - [Building a Simple Chat App With Elixir and Phoenix](https://sheharyar.me/blog/simple-chat-phoenix-elixir/)
-- [How to write a super fast link shortener with Elixir, Phoenix, and Mnesia](https://medium.com/free-code-camp/how-to-write-a-super-fast-link-shortener-with-elixir-phoenix-and-mnesia-70ffa1564b3c)
+- [How to write a super fast link shortener with Elixir, Phoenix, and Mnesia](https://medium.com/free-code-camp/how-to-write-a-super-fast-link-shortener-with-elixir-phoenix-and-mnesia-70ffa1564b3c) - [Source Code](https://github.com/bnchrch/shorten_api_tutorial)
 
-## Erlang
+## Erlang:
 
 - [ChatBus : build your first multi-user chat room app with Erlang/OTP](https://medium.com/@kansi/chatbus-build-your-first-multi-user-chat-room-app-with-erlang-otp-b55f72064901)
-- [Making a Chat App with Erlang, Rebar, Cowboy and Bullet](http://marianoguerra.org/posts/making-a-chat-app-with-erlang-rebar-cowboy-and-bullet.html)
+- [Making a Chat App with Erlang, Rebar, Cowboy and Bullet](https://web.archive.org/web/20240523151250/https://marianoguerra.org/posts/making-a-chat-app-with-erlang-rebar-cowboy-and-bullet.html)
 
 ## F#:
 
@@ -203,25 +252,50 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ## Java:
 
-- [Build an Interpreter](http://www.craftinginterpreters.com/) (Chapter 4-13 is written in Java)
+- [Build an Interpreter](https://web.archive.org/web/20210110010628/http://www.craftinginterpreters.com/) (Chapter 4-13 is written in Java)
 - [Build a Simple HTTP Server with Java](http://javarevisited.blogspot.com/2015/06/how-to-create-http-server-in-java-serversocket-example.html)
 - [Build an Android Flashlight App](https://www.youtube.com/watch?v=dhWL4DC7Krs) (video)
 - [Build a Spring Boot App with User Authentication](https://spring.io/guides/gs/securing-web/)
+- [Build a simple form submission](https://spring.io/guides/gs/handling-form-submission)
+- [Fetch data using MySQL](https://spring.io/guides/gs/accessing-data-mysql)
+- [Code a 2D Game Engine using Java - Full Course for Beginners](https://www.youtube.com/watch?v=025QFeZfeyM)
+- [Build a simple form submission](https://spring.io/guides/gs/handling-form-submission)
+- [Fetch data using MySQL](https://spring.io/guides/gs/accessing-data-mysql)
+- [Code a 2D Game Engine using Java - Full Course for Beginners](https://www.youtube.com/watch?v=025QFeZfeyM)
+- [Build a simple form submission](https://spring.io/guides/gs/handling-form-submission)
 
 ## JavaScript:
 
 - [Build 30 things in 30 days with 30 tutorials](https://javascript30.com)
+- [Build 30 frontend things with 30 tutorials](https://frontend-30.vercel.app/)
 - [Build an App in Pure JS](https://medium.com/codingthesmartway-com-blog/pure-javascript-building-a-real-world-application-from-scratch-5213591cfcd6)
 - [Build a Jupyter Notebook Extension](https://link.medium.com/wWUO7TN8SS)
 - [Build a TicTacToe Game with JavaScript](https://medium.com/javascript-in-plain-english/build-tic-tac-toe-game-using-javascript-3afba3c8fdcc)
+- [Build an App in Pure JS](https://web.archive.org/web/20230329010417/https://medium.com/codingthesmartway-com-blog/pure-javascript-building-a-real-world-application-from-scratch-5213591cfcd6)
+- [Build a TicTacToe Game with JavaScript](https://web.archive.org/web/20200726074038/ttps://medium.com/javascript-in-plain-english/build-tic-tac-toe-game-using-javascript-3afba3c8fdcc)
 - [Build a Simple Weather App With Vanilla JavaScript](https://webdesign.tutsplus.com/tutorials/build-a-simple-weather-app-with-vanilla-javascript--cms-33893)
 - [Build a Todo List App in JavaScript](https://github.com/dwyl/javascript-todo-list-tutorial)
+- [Build projects to master JavaScript essentials](https://www.freecodecamp.org/news/javascript-essentials/)
+- [Build a Simple Weather App with JS](https://www.youtube.com/watch?v=psZ1g9fMIDA)
+- [Build a portfolio website with Javascript, HTML and CSS](https://www.freecodecamp.org/news/how-to-create-a-portfolio-website-using-html-css-javascript-and-bootstrap/)
+- [Build a simple URL shortener with javaScript](https://www.freecodecamp.org/news/building-a-simple-url-shortener-with-just-html-and-javascript-6ea1ecda308c/?source=post_page-----54c80de4f48c--------------------------------)
+- [Build memory game in javascript](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae)
+- [Build a count-down timer with javascript](https://hackr.io/blog/how-to-create-a-javascript-countdown-timer)
+- [Build a digital javascript drum kit](https://hackr.io/blog/how-to-build-a-javascript-drum-kit)
+
+## Julia:
+- [Creating software packages with Julia](https://jaantollander.com/post/how-to-create-software-packages-with-julia-language)
+- [Deep learning with Julia: Train a Model using a Neural Network](https://www.freecodecamp.org/news/deep-learning-with-julia)
+- [Your first web app with Julia and Genie.jl](https://www.freecodecamp.org/news/how-to-build-web-apps-in-julia)
+- [Machine learning: How to Build and Deploy a Trained AI Model as a Web Service](https://www.freecodecamp.org/news/machine-learning-using-julia)
+- [Learn Julia by Coding 7 Projects – Hands-On Programming Tutorial](https://www.freecodecamp.org/news/learn-julia-by-coding-7-projects/)
 
 ## HTML and CSS:
 
 - [Build A Loading Screen](https://medium.freecodecamp.org/how-to-build-a-delightful-loading-screen-in-5-minutes-847991da509f)
 - [Build an HTML Calculator with JS](https://medium.freecodecamp.org/how-to-build-an-html-calculator-app-from-scratch-using-javascript-4454b8714b98)
-- [Build Snake using only JavaScript, HTML & CSS](https://www.freecodecamp.org/news/think-like-a-programmer-how-to-build-snake-using-only-javascript-html-and-css-7b1479c3339e/)
+- [Build Snake using only JavaScript, HTML & CSS](https://medium.com/free-code-camp/think-like-a-programmer-how-to-build-snake-using-only-javascript-html-and-css-7b1479c3339e)
+- [Build A Premium E-Commerce Site ](https://github.com/sagarkagi123/EliteCommerce.git)
 
 ### Mobile Application:
 
@@ -233,11 +307,12 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 #### React:
 
 - [Create Serverless React.js Apps](http://serverless-stack.com/)
+- [Create a Spotify clone](https://github.com/kashan16/Musique)
 - [Create a Trello Clone](http://codeloveandboards.com/blog/2016/01/04/trello-tribute-with-phoenix-and-react-pt-1/)
-- [Create a Character Voting App with React, Node, MongoDB and SocketIO](http://sahatyalkabov.com/create-a-character-voting-app-using-react-nodejs-mongodb-and-socketio)
-- [React Tutorial: Cloning Yelp](https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/)
+- [Create a Character Voting App with React, Node, MongoDB and SocketIO](https://web.archive.org/web/20230205102548/http://sahatyalkabov.com/create-a-character-voting-app-using-react-nodejs-mongodb-and-socketio/)
+- [React Tutorial: Cloning Yelp](https://web.archive.org/web/20161024204353/https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/)
 - [Build a Full Stack Movie Voting App with Test-First Development using Mocha, React, Redux and Immutable](https://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html)
-- [Build a Twitter Stream with React and Node](https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js)
+- [Build a Twitter Stream with React and Node](https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js) (deprecated)
 - [Build A Simple Medium Clone using React.js and Node.js](https://medium.com/@kris101/clone-medium-on-node-js-and-react-js-731cdfbb6878)
 - [Integrate MailChimp in JS](https://medium.freecodecamp.org/how-to-integrate-mailchimp-in-a-javascript-web-app-2a889fb43f6f)
 - [Build A Chrome Extension with React + Parcel](https://medium.freecodecamp.org/building-chrome-extensions-in-react-parcel-79d0240dd58f)
@@ -252,8 +327,9 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Build an Appointment Scheduler](https://hackernoon.com/build-an-appointment-scheduler-using-react-twilio-and-cosmic-js-95377f6d1040)
 - [Build A Chat App with Sentiment Analysis](https://codeburst.io/build-a-chat-app-with-sentiment-analysis-using-next-js-c43ebf3ea643)
 - [Build A Full Stack Web Application Setup](https://hackernoon.com/full-stack-web-application-using-react-node-js-express-and-webpack-97dbd5b9d708)
+- [Build a Secure E-Commerce App with SuperTokens and Hasura GraphQL](https://theankurtyagi.com/build-a-secure-e-commerce-app-with-supertokens-and-hasura-graphql/)
 - [Create Todoist clone with React and Firebase](https://www.youtube.com/watch?v=hT3j87FMR6M)
-- Build A Random Quote Machine
+- Build A Random Quote Machine:
   - [Part 1](https://www.youtube.com/watch?v=3QngsWA9IEE)
   - [Part 2](https://www.youtube.com/watch?v=XnoTmO06OYo)
   - [Part 3](https://www.youtube.com/watch?v=us51Jne67_I)
@@ -262,21 +338,21 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 6](https://www.youtube.com/watch?v=Jvp8j6zrFHE)
   - [Part 7](https://www.youtube.com/watch?v=M_hFfrN8_PQ)
 - [React Phone E-Commerce Project(video)](https://www.youtube.com/watch?v=-edmQKcOW8s)
+- [React Full Stack JavaScript self learning course](https://www.theodinproject.com/paths/full-stack-javascript)
+- [Build a Secure E-Commerce App with SuperTokens and Hasura GraphQL](https://theankurtyagi.com/build-a-secure-e-commerce-app-with-supertokens-and-hasura-graphql/)
 
 #### Angular:
 
-- [Build an Instagram Clone with Angular 1.x](https://hackhands.com/building-instagram-clone-angularjs-satellizer-nodejs-mongodb/)
-- Build an offline-capable Hacker News client with Angular 2+
+- [Build an Instagram Clone with Angular 1.x](https://web.archive.org/web/20160304055405/https://hackhands.com/building-instagram-clone-angularjs-satellizer-nodejs-mongodb/)
+- Build an offline-capable Hacker News client with Angular 2+:
   - [Part 1](https://houssein.me/angular2-hacker-news)
   - [Part 2](https://houssein.me/progressive-angular-applications)
-- [Build a Google+ clone with Django and AngularJS (Angular 1.x)](https://thinkster.io/django-angularjs-tutorial)
-- Build A Beautiful Real World App with Angular 8 :
-
+- [Build a Google+ clone with Django and AngularJS (Angular 1.x)](https://web.archive.org/web/20150316003128/https://thinkster.io/django-angularjs-tutorial/)
+- Build A Beautiful Real World App with Angular 8:
   - [Part I](https://medium.com/@hamedbaatour/build-a-real-world-beautiful-web-app-with-angular-6-a-to-z-ultimate-guide-2018-part-i-e121dd1d55e)
   - [Part II](https://medium.com/@hamedbaatour/build-a-real-world-beautiful-web-app-with-angular-8-the-ultimate-guide-2019-part-ii-fe70852b2d6d)
-
 - [Build Responsive layout with BootStrap 4 and Angular 6](https://medium.com/@tomastrajan/how-to-build-responsive-layouts-with-bootstrap-4-and-angular-6-cfbb108d797b)
-- ToDo App with Angular 5
+- ToDo App with Angular 5:
   - [Introduction to Angular](http://www.discoversdk.com/blog/intro-to-angular-and-the-evolution-of-the-web)
   - [Part 1](http://www.discoversdk.com/blog/angular-5-to-do-list-app-part-1)
 
@@ -284,22 +360,27 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 - [Build a real-time Markdown Editor with NodeJS](https://scotch.io/tutorials/building-a-real-time-markdown-viewer)
 - [Test-Driven Development with Node, Postgres and Knex](http://mherman.org/blog/2016/04/28/test-driven-development-with-node/)
-- Write a Twitter Bot in Node.js
+- Write a Twitter Bot in Node.js: (deprecated)
   - [Part 1](https://codeburst.io/build-a-simple-twitter-bot-with-node-js-in-just-38-lines-of-code-ed92db9eb078)
   - [Part 2](https://codeburst.io/build-a-simple-twitter-bot-with-node-js-part-2-do-more-2ef1e039715d)
 - [Build A Simple Search Bot in 30 minutes](https://medium.freecodecamp.org/how-to-build-a-simple-search-bot-in-30-minutes-eb56fcedcdb1)
 - [Build A Job Scraping Web App](https://medium.freecodecamp.org/how-i-built-a-job-scraping-web-app-using-node-js-and-indreed-7fbba124bbdc)
+- [Build A Bank Application with Node.js](https://www.youtube.com/playlist?list=PL8YhozOQUteYwa13S-PGUNMM37gv7gEVq) 
 - [Building a GitHub App](https://blog.scottlogic.com/2017/05/22/gifbot-github-integration.html)
-- How to build your own Uber-for-X App using JavaScript, Node.JS, MongoDB and Web Sockets
+- How to build your own Uber-for-X App using JavaScript, Node.JS, MongoDB and Web Sockets:
   - [Part 1](https://www.ashwinhariharan.tech/blog/how-to-build-your-own-uber-for-x-app/)
   - [Part 2](https://www.ashwinhariharan.tech/blog/how-to-build-your-own-uber-for-x-app-part-2/)
 
-#### Vue
+#### Typescript:
+
+- [Typescript: How To Build Your First TypeScript Project - TODO List Application (video)](https://www.youtube.com/watch?v=jBmrduvKl5w)
+
+#### Vue:
 
 - [Vue 2 + Firebase: How to build a Vue app with Firebase authentication system in 15 minutes](https://medium.com/@anas.mammeri/vue-2-firebase-how-to-build-a-vue-app-with-firebase-authentication-system-in-15-minutes-fdce6f289c3c)
 - [Vue.js Application Tutorial – Creating a Simple Budgeting App with Vue](https://matthiashager.com/complete-vuejs-application-tutorial/)
-- [Build a Blog with Vue, GraphQL and Apollo](https://scotch.io/tutorials/build-a-blog-with-vue-graphql-and-apollo-client)
-- Build a full stack web application using MEVN (MongoDB, Express, Vue, Node) stack
+- [Build a Blog with Vue, GraphQL and Apollo](https://www.digitalocean.com/community/tutorials/how-to-build-a-blog-with-vue-graphql-and-apollo-client)
+- Build a full stack web application using MEVN (MongoDB, Express, Vue, Node) stack:
   - [Part 1](https://medium.com/@anaida07/mevn-stack-application-part-1-3a27b61dcae0)
   - [Part 2](https://medium.com/@anaida07/mevn-stack-application-part-2-2-9ebcf8a22753)
 - [Vue.js To-Do List Tutorial (video)](https://www.youtube.com/watch?v=78tNYZUS-ps)
@@ -307,25 +388,31 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 #### Others (Hapi, Express...):
 
-- Build a Progressive Web Application (PWA)
+- Build a Progressive Web Application (PWA):
   - [Part 1](https://bitsofco.de/bitsofcode-pwa-part-1-offline-first-with-service-worker/)
   - [Part 2](https://bitsofco.de/bitsofcode-pwa-part-2-instant-loading-with-indexeddb/)
   - [Part 3](https://bitsofco.de/bitsofcode-pwa-part-3-push-notifications/)
 - [Build A Native Desktop App with JS](https://medium.freecodecamp.org/build-native-desktop-apps-with-javascript-a49ede90d8e9)
-- Build a Powerful API with NodeJs,GraphQL and Hapi
+- Build a Powerful API with NodeJs,GraphQL and Hapi:
   - [Part I](https://medium.com/@wesharehoodies/how-to-setup-a-powerful-api-with-nodejs-graphql-mongodb-hapi-and-swagger-e251ac189649)
 
-#### D3.js
+#### D3.js:
 
 - [Learn D3 using examples](https://www.sitepoint.com/d3-js-data-visualizations/)
 - [Learn To Make A Line Chart](https://medium.freecodecamp.org/learn-to-create-a-line-chart-using-d3-js-4f43f1ee716b)
 
+#### Three.js
+
+- [Learn Three.js by building 5 projects - FreeCodeCamp.org](https://www.youtube.com/watch?v=UMqNHi1GDAE&t=35s)
+- [23 Cool Three.js Projects - Robot Bobby](https://www.youtube.com/watch?v=63o2gHHgeH4)
+
 ### Game Development:
 
 - [Make 2D Breakout Game using Phaser](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser)
-- Make Flappy Bird in HTML5 and JavaScript with Phaser
-  - [Part 1](http://www.lessmilk.com/tutorial/flappy-bird-phaser-1)
-  - [Part 2](http://www.lessmilk.com/tutorial/flappy-bird-phaser-2)
+- Make Flappy Bird in HTML5 and JavaScript with Phaser:
+  - [Part 1](https://web.archive.org/web/20211120031904/http://www.lessmilk.com/tutorial/flappy-bird-phaser-1)
+  - [Part 2](https://web.archive.org/web/20211120031904/http://www.lessmilk.com/tutorial/flappy-bird-phaser-2)
+- [Make a game in HTML and JavaScript with Phaser](https://web.archive.org/web/20210724033200/https://www.lesscake.com/phaser-game-tutorial)
 
 ### Desktop Application:
 
@@ -346,7 +433,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ### LÖVE:
 
-- BYTEPATH: Creation of a Complete Game with Lua and LÖVE
+- BYTEPATH: Creation of a Complete Game with Lua and LÖVE:
   - [Part 0: Introduction](https://github.com/SSYGEN/blog/issues/30)
   - [Part 1: Game Loop](https://github.com/SSYGEN/blog/issues/15)
   - [Part 2: Libraries](https://github.com/SSYGEN/blog/issues/16)
@@ -368,13 +455,21 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ### Web Scraping:
 
-- [Mining Twitter Data with Python](https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/)
+- [Mining Twitter Data with Python](https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/) (deprecated)
 - [Scrape a Website with Scrapy and MongoDB](https://realpython.com/blog/python/web-scraping-with-scrapy-and-mongodb/)
 - [How To Scrape With Python and Selenium WebDriver](http://www.byperth.com/2018/04/25/guide-web-scraping-101-what-you-need-to-know-and-how-to-scrape-with-python-selenium-webdriver/)
 - [Which Movie Should I Watch using BeautifulSoup](https://medium.com/@nishantsahoo.in/which-movie-should-i-watch-5c83a3c0f5b1)
+- [5 Web Scraping Projects with Python](https://amankharwal.medium.com/5-web-scraping-projects-with-python-4bcc25ff039)
+- [Scraping GitHub Profile using Python](https://thecleverprogrammer.com/2022/05/05/scraping-github-profile-using-python/)
+- [Scrape Table from a Website using Python](https://thecleverprogrammer.com/2022/03/10/scrape-table-from-a-website-using-python/)
+- [Web Scraping to Create a Dataset using Python](https://thecleverprogrammer.com/2021/05/14/web-scraping-to-create-a-dataset-using-python/)
+- [Scrape IMDb using Python](https://thecleverprogrammer.com/2021/06/02/scrape-imdb-using-python/)
+- [Scrape Trending News using Python](https://thecleverprogrammer.com/2021/05/10/scrape-trending-news-using-python/)
+- [Scrape Wikipedia With Python](https://thecleverprogrammer.com/2020/08/10/scrape-wikipedia-with-python/)
 
 ### Web Applications:
 
+- [Turning a Website into an API with BeautifulSoup and FastAPI](https://dev.to/niklastiede/building-an-api-with-fastapi-1iji)
 - [Build a Microblog with Flask](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
 - [Create a Blog Web App In Django](https://tutorial.djangogirls.org/en/)
 - [Choose Your Own Adventure Presentations](https://www.twilio.com/blog/2015/03/choose-your-own-adventures-presentations-wizard-mode-part-1-of-3.html)
@@ -383,60 +478,98 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Build a RESTful Microservice in Python](http://www.skybert.net/python/developing-a-restful-micro-service-in-python/)
 - [Microservices with Docker, Flask, and React](https://testdriven.io/)
 - [Build A Simple Web App With Flask](https://pythonspot.com/flask-web-app-with-python/)
+- [Build a Secure Task Management App with React and Appwrite](https://theankurtyagi.com/appwrite/)
 - [Create A Django API in under 20 minutes](https://codeburst.io/create-a-django-api-in-under-20-minutes-2a082a60f6f3)
+- [How to Add Authentication to Your App with Flask-Login](https://www.geeksforgeeks.org/python/how-to-add-authentication-to-your-app-with-flask-login/)
+- [Building a Simple CRUD API with Django](https://medium.com/@techtinkerbell/building-a-simple-crud-api-with-django-a-step-by-step-guide-2672fc769fee)
 - Build a Community-driven delivery application with Django, Postgres and JavaScript
   - [Part 1](https://www.ashwinhariharan.tech/blog/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead/)
   - [Part 2](https://www.ashwinhariharan.tech/blog/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-part-2/)
 - Realtime Chat application with Vue, django-notifs, RabbitMQ and uWSGI
+- [Building an Interactive Question Answering App with Streamlit, Transformers, and Langchain WikipediaAPIWrapper](https://medium.com/@anoopjohny2000/building-an-interactive-question-answering-app-with-streamlit-transformers-and-langchain-13b338cfe534)
+- Build a Community-driven delivery application with Django, Postgres and JavaScript:
+  - [Part 1](https://web.archive.org/web/20211025231809/https://www.ashwinhariharan.tech/blog/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead/)
+  - [Part 2](https://web.archive.org/web/20211025232722/https://www.ashwinhariharan.tech/blog/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-part-2/)
+- Realtime Chat application with Vue, django-notifs, RabbitMQ and uWSGI:
   - [Part 1](https://danidee10.github.io/2018/01/01/realtime-django-1.html)
   - [Part 2](https://danidee10.github.io/2018/01/03/realtime-django-2.html)
   - [Part 3](https://danidee10.github.io/2018/01/07/realtime-django-3.html)
   - [Part 4](https://danidee10.github.io/2018/01/10/realtime-django-4.html)
   - [Part 5](https://danidee10.github.io/2018/01/13/realtime-django-5.html)
   - [Part 6](https://danidee10.github.io/2018/03/12/realtime-django-6.html)
+- [Introduction to web programming with Python](https://www.youtube.com/watch?v=vzGllw18DkA&t=65s)
+- [Developing and Testing an Asynchronous API with FastAPI and Pytest](https://testdriven.io/blog/fastapi-crud/)
+- [Python API development and CI/CD pipelines with FastAPI, Docker and More](https://www.youtube.com/watch?v=0sOvCWFmrtA) (video)
+- [Full Stack Web App (Spotify Music Controller App) with Django and React](https://www.youtube.com/playlist?list=PLzMcBGfZo4-kCLWnGmK0jUBmGLaJxvi4j) (Video Playlist)
+- [Build a Secure Task Management App with React and Appwrite](https://theankurtyagi.com/appwrite/)
+
+- [Python API Development - Comprehensive FastAPI Course for Beginners](https://www.youtube.com/watch?v=0sOvCWFmrtA)
 
 ### Bots:
 
+- [Build a WhatsApp Bot with Python and Twilio](https://www.twilio.com/docs/whatsapp/tutorial/send-and-receive-media-messages-whatsapp-python)
 - [Build a Reddit Bot](http://pythonforengineers.com/build-a-reddit-bot-part-1/)
 - [How to Make a Reddit Bot - YouTube](https://www.youtube.com/watch?v=krTUf7BpTc0) (video)
 - [Build a Facebook Messenger Bot](https://blog.hartleybrody.com/fb-messenger-bot/)
 - [Making a Reddit + Facebook Messenger Bot](https://pythontips.com/2017/04/13/making-a-reddit-facebook-messenger-bot/)
-- How To Create a Telegram Bot Using Python
+- How To Create a Telegram Bot Using Python:
   - [Part 1](https://khashtamov.com/en/how-to-create-a-telegram-bot-using-python/)
   - [Part 2](https://khashtamov.com/en/how-to-deploy-telegram-bot-django/)
-- [Create a Twitter Bot In Python](https://medium.freecodecamp.org/creating-a-twitter-bot-in-python-with-tweepy-ac524157a607)
+- [Create a Twitter Bot In Python](https://medium.freecodecamp.org/creating-a-twitter-bot-in-python-with-tweepy-ac524157a607) (deprecated)
+- [Build a Twitter bot for likes and Retweets](https://www.youtube.com/watch?v=ppPKeIDjcCs) (video) (deprecated)
 
 ### Data Science:
 
 - Learn Python For Data Science by Doing Several Projects (video):
   - [Part 1: Introduction](https://www.youtube.com/watch?v=T5pRlIbr6gg)
-  - [Part 2: Twitter Sentiment Analysis](https://www.youtube.com/watch?v=o_OZdbCzHUA)
+  - [Part 2: Twitter Sentiment Analysis](https://www.youtube.com/watch?v=o_OZdbCzHUA) (deprecated)
   - [Part 3: Recommendation Systems](https://www.youtube.com/watch?v=9gBC9R-msAk&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU&index=3)
   - [Part 4: Predicting Stock Prices](https://www.youtube.com/watch?v=SSu00IRRraY&index=4&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU)
   - [Part 5: Deep Dream in TensorFlow](https://www.youtube.com/watch?v=MrBzgvUNr4w&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU&index=5)
   - [Part 6: Genetic Algorithms](https://www.youtube.com/watch?v=dSofAXnnFrY&index=6&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU)
+- [End-To-End Data Science Playlist-Get Prepared With Industry Ready Projects](https://www.youtube.com/playlist?list=PLZoTAELRMXVPS-dOaVbAux22vzqdgoGhG)
+- [Data Science and Machine Learning with Python and R](https://www.youtube.com/playlist?list=PLZoTAELRMXVOnN_g96ayzXX5i7RRO0QhL)
+- [End To End Data Science Projects 2023](https://www.youtube.com/playlist?list=PLZoTAELRMXVOjQdyqlCmOtq1nZnSsWvag)
+- [Data Science Projects](https://www.youtube.com/playlist?list=PLZoTAELRMXVNUcr7osiU7CCm8hcaqSzGw) 
+
+### Generative AI:
+
+- [Safety Guardrails for LLMs: LLaMA Guard Tutorial](https://colab.research.google.com/drive/1CfF0Bzzkd5VETmhsniksSpekpS-LKYtX)
+
+### Generative AI:
+
+- [Safety Guardrails for LLMs: LLaMA Guard Tutorial](https://colab.research.google.com/drive/1CfF0Bzzkd5VETmhsniksSpekpS-LKYtX)
 
 ### Machine Learning:
-
+- [Build an ML Inference API with FastAPI and ONNX](https://www.youtube.com/watch?v=5PgqzVG9SCk)
 - [Write Linear Regression From Scratch in Python](https://www.youtube.com/watch?v=uwwWVAgJBcM) (video)
 - [Step-By-Step Machine Learning In Python](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
 - [Predict Quality Of Wine](https://medium.freecodecamp.org/using-machine-learning-to-predict-the-quality-of-wines-9e2e13d7480d)
 - [Solving A Fruits Classification Problem](https://towardsdatascience.com/solving-a-simple-classification-problem-with-python-fruits-lovers-edition-d20ab6b071d2)
+- [Simple Machine Learning Projects](https://github.com/MahdiMashayekhi-AI/Machine-Learning-Projects)
 - [Learn Unsupervised Learning with Python](https://scikit-learn.org/stable/unsupervised_learning.html)
 - [Build Your Own Neural Net from Scratch in Python](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6)
 - [Linear Regression in Python without sklearn](https://medium.com/we-are-orb/linear-regression-in-python-without-scikit-learn-50aef4b8d122)
 - [Multivariate Linear Regression without sklearn](https://medium.com/we-are-orb/multivariate-linear-regression-in-python-without-scikit-learn-7091b1d45905)
 - [Music Recommender using KNN](https://towardsdatascience.com/how-to-build-a-simple-song-recommender-296fcbc8c85)
-- Find Similar Quora Questions-
+- Find Similar Quora Questions: (Deprecated)
   - [Using BOW, TFIDF and Xgboost](https://towardsdatascience.com/finding-similar-quora-questions-with-bow-tfidf-and-random-forest-c54ad88d1370)
   - [Using Word2Vec and Xgboost](https://towardsdatascience.com/finding-similar-quora-questions-with-word2vec-and-xgboost-1a19ad272c0d)
 - [Detecting Fake News with Python and Machine Learning](https://data-flair.training/blogs/advanced-python-project-detecting-fake-news/)
+- [Email Spam Project End-to-End Machine Learning Using Kaggle Dataset](https://github.com/SheharyarAltaf/Email--Spam-Classifier)
+- [Machine Learning 2023](https://www.youtube.com/playlist?list=PLZoTAELRMXVPMbdMTjwolBI0cJcvASePD)
+- [Live Machine Learning](https://www.youtube.com/playlist?list=PLZoTAELRMXVPjaAzURB77Kz0YXxj65tYz)
+- [ML Usecases](https://www.youtube.com/playlist?list=PLZoTAELRMXVPjvhLlo7v6H-emT8tNkRaW)
+- [Machine Learning Interview questions](https://www.youtube.com/playlist?list=PLZoTAELRMXVM0zN0cgJrfT6TK2ypCpQdY)
+- [Machine Learning Pipelines](https://www.youtube.com/playlist?list=PLZoTAELRMXVMcRQwR5_J8k9S7cffVFq_U)
+- [Complete Machine Learning playlist](https://www.youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe)
+- [Recommendation Systems](https://www.youtube.com/playlist?list=PLZoTAELRMXVN7QGpcuN-Vg35Hgjp3htvi)
 
 ### OpenCV:
 
 - [Build A Document Scanner](https://www.pyimagesearch.com/2014/09/01/build-kick-ass-mobile-document-scanner-just-5-minutes/)
 - [Build A Face Detector using OpenCV and Deep Learning](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/)
-- [Build fastest custom object Detection system yusing YOLOv3(video playlist)](https://www.youtube.com/playlist?list=PLKHYJbyeQ1a0oGzgRXy-QwAN1tSV4XZxg)
+- [Build fastest custom object Detection system using YOLOv3(video playlist)](https://www.youtube.com/playlist?list=PLKHYJbyeQ1a0oGzgRXy-QwAN1tSV4XZxg)
 - [Build a Face Recognition System using OpenCV, Python and Deep Learning](https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/)
 - [Detect The Salient Features in an Image](https://www.pyimagesearch.com/2018/07/16/opencv-saliency-detection/)
 - [Build A Barcode Scanner](https://www.pyimagesearch.com/2018/05/21/an-opencv-barcode-and-qr-code-scanner-with-zbar/)
@@ -455,12 +588,13 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [EigenFaces using OpenCV](https://www.learnopencv.com/eigenface-using-opencv-c-python/)
 - [Faster(5-point) Facial Landmark Detection Tutorial](https://www.pyimagesearch.com/2018/04/02/faster-facial-landmark-detector-with-dlib/)
 - [Hand Keypoint Detection](https://www.learnopencv.com/hand-keypoint-detection-using-deep-learning-and-opencv/)
-- Dlib Correlation Object Tracking -
+- Dlib Correlation Object Tracking:
   - [Single Object Tracker](https://www.pyimagesearch.com/2018/10/22/object-tracking-with-dlib/)
   - [Mutiple Object Tracker](https://www.pyimagesearch.com/2018/10/29/multi-object-tracking-with-dlib/)
 - [Image Stitching with OpenCV and Python](https://www.pyimagesearch.com/2018/12/17/image-stitching-with-opencv-and-python/)
 - [Instance Segmentation with OpenCV](https://www.pyimagesearch.com/2018/11/26/instance-segmentation-with-opencv/)
 - [Face mask detector](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)
+- [Fingerprint-Image-Enhancement](https://github.com/Utkarsh-Deshmukh/Fingerprint-Enhancement-Python/)
 
 ### Deep Learning:
 
@@ -474,7 +608,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Make your Own Face Recognition System](https://medium.freecodecamp.org/making-your-own-face-recognition-system-29a8e728107c)
 - [Train a Language Detection AI in 20 minutes](https://towardsdatascience.com/how-i-trained-a-language-detection-ai-in-20-minutes-with-a-97-accuracy-fdeca0fb7724)
 - [Object Detection With Neural Networks](https://towardsdatascience.com/object-detection-with-neural-networks-a4e2c46b4491)
-- Learn Twitter Sentiment Analysis -
+- Learn Twitter Sentiment Analysis: (deprecated)
   - [Part I - Data Cleaning](https://towardsdatascience.com/another-twitter-sentiment-analysis-bb5b01ebad90)
   - [Part II - EDA, Data Visualisation](https://towardsdatascience.com/another-twitter-sentiment-analysis-with-python-part-2-333514854913)
   - [Part III - Zipf's Law, Data Visualisation](https://towardsdatascience.com/another-twitter-sentiment-analysis-with-python-part-3-zipfs-law-data-visualisation-fc9eadda71e7)
@@ -497,42 +631,51 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [CNN using Keras to automatically classify root health](https://www.pyimagesearch.com/2018/10/15/deep-learning-hydroponics-and-medical-marijuana/)
 - [Keras vs Tensorflow](https://www.pyimagesearch.com/2018/10/08/keras-vs-tensorflow-which-one-is-better-and-which-one-should-i-learn/)
 - [Deep Learning and Medical Image Analysis for Malaria Detection](https://www.pyimagesearch.com/2018/12/03/deep-learning-and-medical-image-analysis-with-keras/)
-- [Transfer Learning for Image Classification using Keras](https://towardsdatascience.com/transfer-learning-for-image-classification-using-keras-c47ccf09c8c8)
+- [Transfer Learning for Image Classification using Keras](https://web.archive.org/web/20181220071910/https://towardsdatascience.com/transfer-learning-for-image-classification-using-keras-c47ccf09c8c8?gi=a6f33db2a665)
 - [Code a Smile Classifier using CNNS in Python](https://github.com/kylemcdonald/SmileCNN)
-- [Natural Language Processing using scikit-learn](https://towardsdatascience.com/natural-language-processing-count-vectorization-with-scikit-learn-e7804269bb5e)
-- [Code a Taylor Swift Lyrics Generator](https://towardsdatascience.com/ai-generates-taylor-swifts-song-lyrics-6fd92a03ef7e)
-- [Mask detection using PyTorch Lightning](https://towardsdatascience.com/how-i-built-a-face-mask-detector-for-covid-19-using-pytorch-lightning-67eb3752fd61)
+- [Natural Language Processing using scikit-learn](https://web.archive.org/web/20200414132154/https://towardsdatascience.com/natural-language-processing-count-vectorization-with-scikit-learn-e7804269bb5e)
+- [Code a Taylor Swift Lyrics Generator](https://web.archive.org/web/20190706003619/https://towardsdatascience.com/ai-generates-taylor-swifts-song-lyrics-6fd92a03ef7e)
+- [Create your first PPO (Proximal Policy Optimization) in Python: Deep Reinforcement Learning Course in Chinese](https://github.com/opendilab/PPOxFamily)
+
+### Game Development:
+
+- [Pygame Quick Start Guide](https://pygame-gui.readthedocs.io/en/latest/quick_start.html)
 
 ### Miscellaneous:
 
 - [Build a Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/)
 - [Build a Simple Blockchain in Python](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
-- [Write a NoSQL Database in Python](https://jeffknupp.com/blog/2014/09/01/what-is-a-nosql-database-learn-by-writing-one-in-python/)
+- [Write a NoSQL Database in Python](https://web.archive.org/web/20141228065458/https://jeffknupp.com/blog/2014/09/01/what-is-a-nosql-database-learn-by-writing-one-in-python/)
 - [Building a Gas Pump Scanner with OpenCV/Python/iOS](https://hackernoon.com/building-a-gas-pump-scanner-with-opencv-python-ios-116fe6c9ae8b)
-- [Build a Distributed Streaming System with Python and Kafka](https://codequs.com/p/S14jQ5UyG/build-a-distributed-streaming-system-with-apache-kafka-and-python)
-- [Writing a basic x86-64 JIT compiler from scratch in stock Python](https://csl.name/post/python-jit/)
-- Making a low level (Linux) debugger
+- [Build a Distributed Streaming System with Python and Kafka](https://web.archive.org/web/20230519103533/https://codequs.com/p/S14jQ5UyG/build-a-distributed-streaming-system-with-apache-kafka-and-python)
+- [Writing a basic x86-64 JIT compiler from scratch in stock Python](https://web.archive.org/web/20220826224628/https://csl.name/post/python-jit/)
+- Making a low level (Linux) debugger:
   - [Part 1](https://blog.asrpo.com/making_a_low_level_debugger)
   - [Part 2: C](https://blog.asrpo.com/making_a_low_level_debugger_part_2)
-- Implementing a Search Engine
-  - [Part 1](http://www.ardendertat.com/2011/05/30/how-to-implement-a-search-engine-part-1-create-index/)
-  - [Part 2](http://www.ardendertat.com/2011/05/31/how-to-implement-a-search-engine-part-2-query-index/)
-  - [Part 3](http://www.ardendertat.com/2011/07/17/how-to-implement-a-search-engine-part-3-ranking-tf-idf/)
+- Implementing a Search Engine:
+  - [Part 1](https://web.archive.org/web/20210614081424/http://www.ardendertat.com/2011/05/30/how-to-implement-a-search-engine-part-1-create-index/)
+  - [Part 2](https://web.archive.org/web/20210614063216/http://www.ardendertat.com/2011/05/31/how-to-implement-a-search-engine-part-2-query-index/)
+  - [Part 3](https://web.archive.org/web/20210615041205/http://www.ardendertat.com/2011/07/17/how-to-implement-a-search-engine-part-3-ranking-tf-idf/)
 - [Build the Game of Life](https://robertheaton.com/2018/07/20/project-2-game-of-life/)
 - [Create terminal ASCII art](https://robertheaton.com/2018/06/12/programming-projects-for-advanced-beginners-ascii-art/)
 - [Write a Tic-Tac-Toe AI](https://robertheaton.com/2018/10/09/programming-projects-for-advanced-beginners-3-a/)
 - [Create photomosaic art](https://robertheaton.com/2018/11/03/programming-project-4-photomosaics/)
 - [Build the game "Snake" in the terminal](https://robertheaton.com/2018/12/02/programming-project-5-snake/)
 - [Write yourself a Git](https://wyag.thb.lt/)
+- [How to Build a Full Stack Notes App Using React and Supabase – The Complete Guide](https://theankurtyagi.com/notes-app-react-supabase/)
 - [A Python implementation of a Python bytecode runner](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
 - [Create a Voice assistant using Python](https://www.geeksforgeeks.org/voice-assistant-using-python/)
+- [Introduction to LLM Fine-Tuning](https://www.digitalocean.com/community/tutorials/llm-finetuning-domain-specific-models)
+- [Create a Matrix Screensaver in Python](https://medium.com/@ericvanrees/create-a-matrix-digital-rain-screensaver-with-python-pt-1-ae11e661edef)
+- [How to Build a Full Stack Notes App Using React and Supabase – The Complete Guide](https://theankurtyagi.com/notes-app-react-supabase/)
 
 ## Go:
 
 - [Create a Real Time Chat App with Golang, Angular 2, and WebSocket](https://www.thepolyglotdeveloper.com/2016/12/create-real-time-chat-app-golang-angular-2-websockets/)
 - [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin)
+- [Building Microservices with Go](https://www.youtube.com/playlist?list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_)
 - [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go)
-- Building Blockchain in Go
+- Building Blockchain in Go:
   - [Part 1: Basic Prototype](https://jeiwan.net/posts/building-blockchain-in-go-part-1/)
   - [Part 2: Proof of Work](https://jeiwan.net/posts/building-blockchain-in-go-part-2/)
   - [Part 3: Persistence and CLI](https://jeiwan.net/posts/building-blockchain-in-go-part-3/)
@@ -542,7 +685,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 7: Network](https://jeiwan.net/posts/building-blockchain-in-go-part-7/)
 - [Building a container from scratch in Go - Liz Rice (Microscaling Systems)(video)](https://www.youtube.com/watch?v=8fi7uSYlOdc)
 - [Build Web Application with GoLang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/)
-- Building a Chat Application in Go with ReactJS
+- Building a Chat Application in Go with ReactJS:
   - [Part 1: Initial Setup](https://tutorialedge.net/projects/chat-system-in-go-and-react/part-1-initial-setup/)
   - [Part 2: Simple Communication](https://tutorialedge.net/projects/chat-system-in-go-and-react/part-2-simple-communication/)
   - [Part 3: Designing our Frontend](https://tutorialedge.net/projects/chat-system-in-go-and-react/part-3-designing-our-frontend/)
@@ -550,7 +693,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 5: Improving the Frontend](https://tutorialedge.net/projects/chat-system-in-go-and-react/part-5-improved-frontend/)
   - [Part 6: Dockerizing your Backend](https://tutorialedge.net/projects/chat-system-in-go-and-react/part-6-dockerizing-your-backend/)
 - [Go WebAssembly Tutorial - Building a Calculator Tutorial](https://tutorialedge.net/golang/go-webassembly-tutorial/)
-- REST Servers in Go
+- REST Servers in Go:
   - [Part 1 - standard library](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-1-standard-library/)
   - [Part 2 - using a router package](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-2-using-a-router-package/)
   - [Part 3 - using a web framework](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-3-using-a-web-framework/)
@@ -558,7 +701,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 5 - middleware](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-5-middleware/)
   - [Part 6 - authentication](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-6-authentication/)
   - [Part 7 - GraphQL](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-7-graphql/)
-- Let's build a URL shortener in Go - with Gin & Redis
+- Let's build a URL shortener in Go - with Gin & Redis:
   - [Part 1 - Project setup](https://www.eddywm.com/lets-build-a-url-shortener-in-go/)
   - [Part 2 - Storage Layer](https://www.eddywm.com/lets-build-a-url-shortener-in-go-with-redis-part-2-storage-layer/)
   - [Part 3 - Short Link Generator](https://www.eddywm.com/lets-build-a-url-shortener-in-go-part-3-short-link-generation/)
@@ -566,24 +709,48 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Building a TCP Chat in Go(video)](https://www.youtube.com/watch?v=Sphme0BqJiY)
 - [Building a BitTorrent client from the ground up in Go](https://blog.jse.li/posts/torrent/)
 - [REST API masterclass with Go, PostgreSQL and Docker(video playlist)`in progress`](https://www.youtube.com/watch?v=rx6CPDK_5mU&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
+- [Go In One Evening - learn Go by creating a real-life projects](https://threedots.tech/go-in-one-evening/?utm_source=project-based-learning)
+- [Let's Create a Simple Load Balancer With Go](https://kasvith.me/posts/lets-create-a-simple-lb-go/)
+- [Building a beginner friendly project in Go](https://www.youtube.com/watch?v=jFfo23yIWac)
+- [Golang Restaurant Management Backend Project](https://www.youtube.com/watch?v=uhQJAZE6KTQ)
+- [Go In One Evening - learn Go by creating a real-life projects](https://threedots.tech/go-in-one-evening/?utm_source=project-based-learning)
+- Building a fully functional real-world project with DDD, Clean Architecture, and CQRS:
+  - [GitHub Repository with the project](https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example)
+  - [Part 1 - Building a serverless application with Go, Google Cloud Run and Firebase](https://threedots.tech/post/serverless-cloud-run-firebase-modern-go-application/?utm_source=project-based-learning)
+  - [Part 2 - A complete Terraform setup of a serverless application on Google Cloud Run and Firebase](https://threedots.tech/post/complete-setup-of-serverless-application/?utm_source=project-based-learning)
+  - [Part 3 - Robust gRPC communication on Google Cloud Run (but not only!)](https://threedots.tech/post/robust-grpc-google-cloud-run/?utm_source=project-based-learning)
+  - [Part 4 - You should not build your own authentication.](https://threedots.tech/post/firebase-cloud-run-authentication/?utm_source=project-based-learning)
+  - [Part 5 - When to avoid DRY in Go](https://threedots.tech/post/things-to-know-about-dry/?utm_source=project-based-learning)
+  - [Part 6 - Introduction to DDD Lite: When microservices in Go are not enough](https://threedots.tech/post/ddd-lite-in-go-introduction/?utm_source=project-based-learning)
+  - [Part 7 - The Repository pattern in Go: a painless way to simplify your service logic](https://threedots.tech/post/repository-pattern-in-go/?utm_source=project-based-learning)
+  - [Part 7 - 4 practical principles of high-quality database integration tests in Go](https://threedots.tech/post/database-integration-testing/?utm_source=project-based-learning)
+  - [Part 8 - How to implement Clean Architecture in Go](https://threedots.tech/post/introducing-clean-architecture/?utm_source=project-based-learning)
+  - [Part 9 - How to use basic CQRS in Go](https://threedots.tech/post/basic-cqrs-in-go/?utm_source=project-based-learning)
+  - [Part 10 - Combining DDD, CQRS, and Clean Architecture in Go](https://threedots.tech/post/ddd-cqrs-clean-architecture-combined/?utm_source=project-based-learning)
+  - [Part 11 - Microservices test architecture. Can you sleep well without end-to-end tests?](https://threedots.tech/post/microservices-test-architecture/?utm_source=project-based-learning)
+  - [Part 12 - Repository secure by design: how to sleep better without fear of security vulnerabilities](https://threedots.tech/post/repository-secure-by-design/?utm_source=project-based-learning)
+  - [Part 13 - Running integration tests with docker-compose in Google Cloud Build](https://threedots.tech/post/running-integration-tests-on-google-cloud-build/?utm_source=project-based-learning)
+- [Building Microservices with Go (video playlist)](https://www.youtube.com/watch?v=VzBGi_n65iU&list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_)
+- [Recreating the Linux 'Which' Command in Go](https://aubiss.com/posts/recreating-which-command-in-go/)
 
 ## PHP:
 
 - [How To Build A Blog With Laravel](https://www.youtube.com/playlist?list=PLwAKR305CRO-Q90J---jXVzbOd4CDRbVx) (video)
 - [Make Your Own Blog (in Pure PHP)](http://ilovephp.jondh.me.uk/en/tutorial/make-your-own-blog)
-- [Build A Real Estate Website Example with SilverStripe](https://www.silverstripe.org/learn/lessons/)
+- [Build A Real Estate Website Example with SilverStripe](https://www.silverstripe.org/learn/lessons/) (deprecated)
 - [Building Realtime Chat App with Laravel 5.4 and VueJS](https://www.youtube.com/playlist?list=PLXsbBbd36_uVjOFH_P25__XAyGsohXWlv) (video)
 - [Build A Social Network: Laravel 5 - Youtube](https://www.youtube.com/playlist?list=PLfdtiltiRHWGGxaR6uFtwZnnbcXqyq8JD) (video)
-- Build a full-featured multi-tenant app with Laravel
+- Build a full-featured multi-tenant app with Laravel:
   - [Part 0: Introduction](https://medium.com/@ashokgelal/writing-a-full-featured-multi-tenant-laravel-app-from-scratch-a0e1a7350d9d)
   - [Part 1: Setup](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-1-4049a3cc229d)
-  - [Part 2: Roles and Permissinos](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-2-roles-and-permissions-d9a5bfe5d525)
+  - [Part 2: Roles and Permissions](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-2-roles-and-permissions-d9a5bfe5d525)
   - [Part 3: Invitation](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-3-invitation-c982dca55eb9)
   - [Part 4: Authentication](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-4-tenancy-aware-authentication-e0ee37270bc8)
   - [Part 5: Testing](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-2-unit-tests-96d6dfbf0617)
   - [Part 6: User Profile](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-5-user-profile-5c3d0c655f3a)
   - [Part 7: Deployment](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-7-deployment-40bb3c895627)
-- [Build a Laravel CRUD Application From Scratch](https://www.codewall.co.uk/laravel-crud-demo-with-resource-controller-tutorial/)
+- [Build a Laravel CRUD Application From Scratch](https://web.archive.org/web/20220802155617/https://www.codewall.co.uk/laravel-crud-demo-with-resource-controller-tutorial/)
+- [Docker and PHP Full Course](https://www.youtube.com/playlist?list=PLQH1-k79HB396mS8xRQ5gih5iqkQw-4aV)
 
 ## OCaml:
 
@@ -593,7 +760,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 ## Ruby:
 
 - [Build a Network Stack with Ruby](https://medium.com/geckoboard-under-the-hood/how-to-build-a-network-stack-in-ruby-f73aeb1b661b)
-- Build your own Redis
+- Build your own Redis:
   - [Part 0: Introduction](https://rohitpaulk.com/articles/redis-0)
   - [Part 1: Barebones TCP Server](https://rohitpaulk.com/articles/redis-1)
   - [Part 2: PING <-> PONG](https://rohitpaulk.com/articles/redis-2)
@@ -610,7 +777,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 
 ## Haskell:
 
-- [Write You a Haskell - Build a modern functional compiler](http://dev.stephendiehl.com/fun/)
+- [Write You a Haskell - Build a modern functional compiler](https://web.archive.org/web/20220510095259/http://dev.stephendiehl.com/fun/)
 - [Write Yourself a Scheme in 48 hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
 - [Write You A Scheme, Version 2](https://github.com/write-you-a-scheme-v2/scheme)
 - [Roll Your Own IRC Bot](https://wiki.haskell.org/Roll_your_own_IRC_bot)
@@ -620,12 +787,13 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 ## R:
 
 - [Build Web Apps with Shiny](http://shiny.rstudio.com/tutorial/)
-- [Build A Cryptocurrency Bot](https://towardsdatascience.com/build-a-cryptocurrency-trading-bot-with-r-1445c429e1b1)
+- [Build A Cryptocurrency Bot](https://web.archive.org/web/20180530163142/https://towardsdatascience.com/build-a-cryptocurrency-trading-bot-with-r-1445c429e1b1)
 - [Learn Associate Rule Mining in R](https://towardsdatascience.com/association-rule-mining-in-r-ddf2d044ae50)
+- [Make a Linear regression in R](https://www.scribbr.com/statistics/linear-regression-in-r/)
 
 ## Rust:
 
-- A Simple Web App in Rust
+- A Simple Web App in Rust:
   - [Part 1](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-1/)
   - [Part 2a](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-2a/)
   - [Part 2b](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-2b/)
@@ -633,40 +801,66 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Build a browser engine in Rust](https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html)
 - [Write a Microservice in Rust](http://www.goldsborough.me/rust/web/tutorial/2018/01/20/17-01-11-writing_a_microservice_in_rust/)
 - [Learning Rust with Too Many Linked Lists](http://cglab.ca/~abeinges/blah/too-many-lists/book/README.html)
-- Rust in Detail: Writing Scalable Chat Service from Scratch
+- Rust in Detail: Writing Scalable Chat Service from Scratch:
   - [Part 1: Implementing WebSocket. Introduction.](https://nbaksalyar.github.io/2015/07/10/writing-chat-in-rust.html)
   - [Part 2: Sending and Receiving Messages](https://nbaksalyar.github.io/2015/11/09/rust-in-detail-2.html)
 - [Writing a Rust Roguelike for the Desktop and the Web](https://aimlesslygoingforward.com/blog/2019/02/09/writing-a-rust-roguelike-for-the-desktop-and-the-web/)
 - [Single Page Applications using Rust](http://www.sheshbabu.com/posts/rust-wasm-yew-single-page-application/)
 - [Writing NES Emulator in Rust](https://bugzmanov.github.io/nes_ebook/)
-- Create a simulation of evolution using neural network and genetic algorithm, and compile the application to WebAssembly
+- Create a simulation of evolution using neural network and genetic algorithm, and compile the application to WebAssembly:
   - [Part 1](https://pwy.io/en/posts/learning-to-fly-pt1/)
   - [Part 2](https://pwy.io/en/posts/learning-to-fly-pt2/)
   - [Part 3](https://pwy.io/en/posts/learning-to-fly-pt3/)
   - [Part 4](https://pwy.io/en/posts/learning-to-fly-pt4/)
+- [A tutorial of building an LSM-Tree storage engine in a week!](https://github.com/skyzh/mini-lsm)
+- [Write a Toy VPN in Rust](https://write.yiransheng.com/vpn)
+- [Implementing BitTorrent in Rust](https://www.youtube.com/watch?v=fhEHBQog-Cc)
 
 ## Scala:
 
 - [Simple actor-based blockchain](https://www.freecodecamp.org/news/how-to-build-a-simple-actor-based-blockchain-aac1e996c177/)
 - [No Magic: Regular Expressions](https://rcoh.svbtle.com/no-magic-regular-expressions)
 
+## SQL
+
+- [SQL Foundations](https://www.udemy.com/course/sql-essentials-for-beginners/)
+- [Introduction to Databases and SQL querying](https://www.udemy.com/course/introduction-to-databases-and-sql-querying/)
+- [Advanced SQL Databases and SQL querying](https://www.udemy.com/course/advanced-tsql-querying-using-sql-2014/)
+
 ## Swift:
 
 - [Hacking with Swift - Learn Swift by doing 39 projects](https://www.hackingwithswift.com/read)
+- [Apple SwiftUI Tutorials (Build Apps by Creating Real Projects)](https://developer.apple.com/tutorials/swiftui)
 - [Retro first-person shooter from scratch](https://github.com/nicklockwood/RetroRampage)
 
-## Additional Resources
+## Streamlit:
+
+- [Master Streamlit in one course - 4 Real Projects Included](https://youtu.be/eAgONwZ_dKM?si=NhmhJqSMWw9NJo1C)
+- [Complete Streamlit Python Course](https://youtu.be/RjiqbTLW9_E?si=TDOQjfGhGHHc26Iu)
+
+## Additional Resources:
 
 - [React Redux Links](https://github.com/markerikson/react-redux-links)
 - [Udemy.com](https://www.udemy.com/)
+- [AWS zero to hero](https://youtube.com/playlist?list=PLdpzxOOAlwvLNOxX0RfndiYSt1Le9azze&si=vgdbbf84dAXg33GE)
 - [Full Stack Python](https://www.fullstackpython.com/)
 - [Node School](https://nodeschool.io/)
 - [ScotchIO](https://scotch.io/)
 - [Exercism](http://www.exercism.io/)
 - [Egghead.io](http://www.egghead.io/)
 - [Michael Herman's Blog](http://mherman.org/)
-- [Thinkster.io](http://thinkster.io)
+- [Ankur Tyagi's Blog](https://theankurtyagi.com/)
 - [Enlight](https://enlight.nyc/)
 - [Hack Club Workshops](https://hackclub.com/workshops/)
 - [CodeCrafters](https://codecrafters.io/)
 - [Fullstackopen](https://fullstackopen.com/en/)
+- [Documentation](https://devdocs.io/)
+- [Cyberclopaedia](https://cr0mll.github.io/cyberclopaedia/Cyberclopaedia/index.html)
+- [SimpliLearn](https://www.simplilearn.com/learn-python-basics-free-course-skillup)
+- [LabEx](https://labex.io)
+- [Documentation](https://devdocs.io/)
+- [Full Stack Open](https://fullstackopen.com/en)
+- [Cyberclopaedia](https://cr0mll.github.io/cyberclopaedia/Cyberclopaedia/index.html)
+- [Programiz PRO](https://programiz.pro/)
+- [Ankur Tyagi's Blog](https://theankurtyagi.com/)
+- [Coding Challanges Newsletter](https://codingchallenges.substack.com/)
